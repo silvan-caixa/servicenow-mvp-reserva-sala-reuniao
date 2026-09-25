@@ -1,11 +1,11 @@
 # 1. CHECKLIST GENÉRICO — MVP RESERVA DE SALA
 ## 1. Analyze & design business logic
-- [ ] Problema de negócio
-- [ ] Objetivos e resultados esperados
-- [ ] Personas / stakeholders
-- [ ] Entradas e saídas
-- [ ] Processo de reserva
-- [ ] Regras de negócio
+- [ x ] Problema de negócio
+- [ x ] Objetivos e resultados esperados
+- [ x ] Personas / stakeholders
+- [ x ] Entradas e saídas
+- [ x ] Processo de reserva
+- [ x ] Regras de negócio
 ## 2. Design & build data model
 - [ ] Tabelas
 - [ ] Campos
