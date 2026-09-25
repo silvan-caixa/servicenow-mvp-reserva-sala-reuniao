@@ -1,4 +1,4 @@
-# Checklist Técnico Detalhado — MVP Reserva de Salas de Reunião
+# 🔧 Checklist Técnico Detalhado — MVP Reserva de Salas de Reunião
 
 > **Projeto:** Gestão de Salas de Reunião  
 > **Plataforma:** ServiceNow  
@@ -7,7 +7,7 @@
 
 ---
 
-# 1. Levantamento e definição do MVP
+# 1. 📋 Levantamento e definição do MVP
 
 ## 1.1 Processo atual
 
@@ -41,11 +41,11 @@
 
 ---
 
-# 2. Arquitetura da aplicação
+# 2. 🏗️ Arquitetura da aplicação
 
 ## 2.1 Estrutura da aplicação
 
-- [ ] Criar aplicação scoped
+- [ ] Criar aplicação Scoped
 - [ ] Definir nome da aplicação
 - [ ] Definir nome técnico
 - [ ] Definir descrição
@@ -60,8 +60,9 @@
 - [ ] Avaliar tabelas nativas ServiceNow
 - [ ] Avaliar tabelas customizadas
 - [ ] Definir estratégia de extensão de tabelas
+- [ ] Avaliar extensão da tabela Task para reservas
 - [ ] Evitar extensão desnecessária de tabelas CMDB
-- [ ] Definir arquitetura para futura expansão para "Gestão de Espaços"
+- [ ] Definir arquitetura para futura expansão para Gestão de Espaços
 - [ ] Validar arquitetura com equipe técnica
 - [ ] Registrar decisões arquiteturais
 
@@ -69,7 +70,7 @@
 
 ---
 
-# 3. Modelo de dados
+# 3. 🗃️ Modelo de dados
 
 ## 3.1 Entidades principais
 
@@ -85,99 +86,7 @@ Definir inicialmente as seguintes entidades:
 - [ ] Regras de acesso
 - [ ] Usuário
 
----
-
-# 4. Tabelas
-
-## 4.1 Tabela de Sala
-
-Definir tabela para representar as salas disponíveis para reserva.
-
-Sugestão:
-
-`u_sala`
-
-Campos a avaliar:
-
-- [ ] Número/código da sala
-- [ ] Nome da sala
-- [ ] Unidade
-- [ ] Prédio
-- [ ] Andar
-- [ ] Capacidade
-- [ ] Localização
-- [ ] Descrição
-- [ ] Status
-- [ ] Ativa
-- [ ] Características
-- [ ] Responsável
-- [ ] Data de início de disponibilidade
-- [ ] Data de término de disponibilidade
-
----
-
-## 4.2 Tabela de Reserva
-
-A reserva representa o agendamento realizado pelo usuário.
-
-Sugestão:
-
-`u_reserva_sala`
-
-Campos:
-
-- [ ] Número da reserva
-- [ ] Solicitante
-- [ ] Sala
-- [ ] Data
-- [ ] Hora inicial
-- [ ] Hora final
-- [ ] Quantidade de participantes
-- [ ] Assunto/finalidade
-- [ ] Observações
-- [ ] Estado
-- [ ] Data de criação
-- [ ] Criado por
-- [ ] Data de alteração
-- [ ] Alterado por
-- [ ] Motivo do cancelamento
-
----
-
-## 4.3 Tabela de Bloqueio
-
-Representar períodos em que uma sala não pode ser reservada.
-
-Sugestão:
-
-`u_bloqueio_sala`
-
-Campos:
-
-- [ ] Sala
-- [ ] Data inicial
-- [ ] Data final
-- [ ] Hora inicial
-- [ ] Hora final
-- [ ] Motivo
-- [ ] Tipo de bloqueio
-- [ ] Responsável
-- [ ] Estado
-- [ ] Observação
-
-Tipos possíveis:
-
-- [ ] Manutenção
-- [ ] Evento
-- [ ] Indisponibilidade
-- [ ] Restrição operacional
-- [ ] Outro
-
----
-
-# 5. Relacionamentos
-
-Definir os relacionamentos:
+## 3.2 Modelo conceitual
 
 ```text
 Unidade
