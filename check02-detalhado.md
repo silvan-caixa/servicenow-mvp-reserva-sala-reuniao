@@ -114,15 +114,28 @@ Reserva
 ```text
                 Gestão de Espaços
                        │
-                       ├── Unidade
-                       │
-                       ├── Prédio
-                       │
-                       ├── Andar
-                       │
-                       ├── Sala
-                       │
-                       └── Reserva
+                       Unidade
+                           │
+                           └── Prédio
+                                  │
+                                  └── Andar
+                                         │
+                                         └── Sala
+                                                │
+                                                ├── Capacidade
+                                                ├── Recursos
+                                                ├── Status
+                                                └── Disponibilidade
+                                                       │
+                                                       └── Reserva
+                                                              │
+                                                              ├── Solicitante
+                                                              ├── Data
+                                                              ├── Hora inicial
+                                                              ├── Hora final
+                                                              ├── Participantes
+                                                              ├── Status
+                                                              └── Observações
 ```
 ### 2.2 Tabelas
 ### Tabela: Unidade
@@ -133,3 +146,44 @@ Reserva
 - [ ] Status
 - [ ] Localização
 - [ ] Fuso horário
+
+### Tabela: Prédio
+- [ ] Criar tabela Prédio
+- [ ] Código
+- [ ] Nome
+- [ ] Unidade
+- [ ] Endereço
+- [ ] Cidade
+- [ ] Estado
+- [ ] Fuso horário
+- [ ] Status
+
+Relacionamento:
+
+Unidade 1 ───── N Prédios
+### Tabela: Andar
+- [ ] Criar tabela Andar
+- [ ] Identificação do andar
+- [ ] Prédio
+- [ ] Descrição
+- [ ] Status
+
+Relacionamento:
+
+Prédio 1 ───── N Andares
+### Tabela: Sala
+- [ ] Criar tabela Sala
+- [ ] Número/nome da sala
+- [ ] Andar
+- [ ] Prédio
+- [ ] Capacidade
+- [ ] Descrição
+- [ ] Status
+- [ ] Disponível para reserva
+- [ ] Data de início de operação
+- [ ] Data de encerramento, se aplicável
+- [ ] Observações
+
+Relacionamento:
+
+Andar 1 ───── N Salas
