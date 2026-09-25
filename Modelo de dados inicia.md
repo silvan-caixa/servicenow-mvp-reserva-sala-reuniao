@@ -2,22 +2,24 @@
 
 ## Principais entidades previstas:
 
-Unidade
-Prédio
-Andar
-Sala
-Reserva
+- Unidade
+- Prédio
+- Andar
+- Sala
+- Reserva
 
-Relacionamentos conceituais:
+---
 
-Unidade
-   │
-   └── Prédio
-          │
-          └── Andar
-                 │
-                 └── Sala
+## Relacionamentos conceituais:
+```text
+                     Unidade
                         │
-                        └── Reserva
+                        └── Prédio
                                │
-                               └── Usuário
+                               └── Andar
+                                      │
+                                      └── Sala
+                                             │
+                                             └── Reserva
+                                                    │
+                                                    └── Usuário
