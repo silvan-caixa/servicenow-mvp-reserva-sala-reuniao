@@ -1,9 +1,9 @@
-# 2. CHECKLIST TÉCNICO DETALHADO
+# CHECKLIST TÉCNICO DETALHADO
 
-# Este será o checklist que eu usaria durante o desenvolvimento do MVP.
+## Este será o checklist que eu usaria durante o desenvolvimento do MVP.
 
-# 1. ANALYZE & DESIGN BUSINESS LOGIC
-## 1.1 Definição do MVP
+## 1. ANALYZE & DESIGN BUSINESS LOGIC
+### 1.1 Definição do MVP
 - [ ] Definir formalmente o MVP
 - [ ] Documentar o que está dentro do MVP
 - [ ] Documentar o que está fora do MVP
