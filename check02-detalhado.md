@@ -111,7 +111,7 @@ Reserva
 
 ### A arquitetura inicial pode ser:
 
-'''text
+```text
                 Gestão de Espaços
                        │
                        ├── Unidade
@@ -123,7 +123,7 @@ Reserva
                        ├── Sala
                        │
                        └── Reserva
-'''
+```
 ### 2.2 Tabelas
 ### Tabela: Unidade
 - [ ] Criar tabela Unidade
