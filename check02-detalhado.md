@@ -116,7 +116,7 @@ Definir o processo completo:
         Reserva criada
            ↓
         Notificação
-
+```text
 Checklist:
 
 ☐ Definir início do processo
