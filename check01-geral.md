@@ -2,10 +2,10 @@
 ## 1. Analyze & design business logic
 - [x] Problema de negócio
 - [x] Objetivos e resultados esperados
-- [ x ] Personas / stakeholders
-- [ x ] Entradas e saídas
-- [ x ] Processo de reserva
-- [ x ] Regras de negócio
+- [x] Personas / stakeholders
+- [x] Entradas e saídas
+- [x] Processo de reserva
+- [x] Regras de negócio
 ## 2. Design & build data model
 - [ ] Tabelas
 - [ ] Campos
