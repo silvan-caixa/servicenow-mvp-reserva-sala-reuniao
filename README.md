@@ -1,6 +1,6 @@
-# 🏢 Gestão de Salas de Reunião — ServiceNow
+# Gestão de Salas de Reunião — ServiceNow
 
-## 📋 Sobre o projeto
+## Sobre o projeto
 
 Este projeto tem como objetivo desenvolver, utilizando a plataforma **ServiceNow**, uma solução moderna para **reserva e gestão de salas de reunião**, substituindo gradualmente o modelo atualmente utilizado pelo sistema legado de agendamento de salas.
 
@@ -10,7 +10,7 @@ A proposta não é simplesmente reproduzir o sistema existente, mas **preservar 
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Criar um **MVP (Minimum Viable Product)** para permitir que empregados possam:
 
@@ -27,7 +27,7 @@ Além disso, a solução deverá permitir que áreas responsáveis façam a **ge
 
 ---
 
-## 🏛️ Cenário atual
+## Cenário atual
 
 O processo atual é realizado por meio de um sistema legado de agendamento de salas.
 
@@ -54,7 +54,7 @@ Embora o sistema atenda ao processo básico de reserva, foram identificadas opor
 
 ---
 
-## 💡 Proposta
+## Proposta
 
 A nova solução será desenvolvida no ServiceNow buscando:
 
@@ -71,7 +71,7 @@ A aplicação deverá ser construída de forma **modular, governável e extensí
 
 ---
 
-# 🚀 Escopo do MVP
+# Escopo do MVP
 
 O primeiro MVP será **exclusivamente voltado para reserva de salas de reunião**.
 
@@ -112,7 +112,7 @@ Os seguintes itens poderão ser avaliados em futuras evoluções:
 
 ---
 
-# 🧩 Arquitetura conceitual
+# Arquitetura conceitual
 
 A solução deverá possuir uma estrutura semelhante a:
 
