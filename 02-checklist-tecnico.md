@@ -1,4 +1,4 @@
-# 🔧 Checklist Técnico Detalhado — MVP Reserva de Salas de Reunião
+# Checklist Técnico Detalhado — MVP Reserva de Salas de Reunião
 
 > **Projeto:** Gestão de Salas de Reunião  
 > **Plataforma:** ServiceNow  
@@ -7,7 +7,7 @@
 
 ---
 
-# 1. 📋 Levantamento e definição do MVP
+# 1. Levantamento e definição do MVP
 
 ## 1.1 Processo atual
 
@@ -41,7 +41,7 @@
 
 ---
 
-# 2. 🏗️ Arquitetura da aplicação
+# 2. Arquitetura da aplicação
 
 ## 2.1 Estrutura da aplicação
 
@@ -69,7 +69,7 @@
 
 ---
 
-# 3. 🗃️ Modelo de dados
+# 3. Modelo de dados
 
 ## 3.1 Entidades principais
 
@@ -87,7 +87,7 @@ Definir inicialmente as seguintes entidades:
 
 ---
 
-# 4. 🗄️ Tabelas
+# 4. Tabelas
 
 ## 4.1 Tabela de Sala
 
@@ -175,7 +175,7 @@ Tipos possíveis:
 
 ---
 
-# 5. 🔗 Relacionamentos
+# 5. Relacionamentos
 
 Definir os relacionamentos:
 
