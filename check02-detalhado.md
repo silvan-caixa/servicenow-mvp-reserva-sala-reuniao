@@ -96,6 +96,7 @@ Fora do MVP
 1.3 Processo de reserva
 
 Definir o processo completo:
+
 ```text
         Usuário
            ↓
@@ -116,7 +117,8 @@ Definir o processo completo:
         Reserva criada
            ↓
         Notificação
-```text
+```
+
 Checklist:
 
 ☐ Definir início do processo
