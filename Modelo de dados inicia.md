@@ -1,0 +1,23 @@
+# O modelo será definido e validado durante o desenvolvimento.
+
+## Principais entidades previstas:
+
+Unidade
+Prédio
+Andar
+Sala
+Reserva
+
+Relacionamentos conceituais:
+
+Unidade
+   │
+   └── Prédio
+          │
+          └── Andar
+                 │
+                 └── Sala
+                        │
+                        └── Reserva
+                               │
+                               └── Usuário
