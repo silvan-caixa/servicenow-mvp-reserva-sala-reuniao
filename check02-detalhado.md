@@ -551,9 +551,9 @@ O usuário vê algo parecido com:
 ```text
 Sala                  08:00  08:30  09:00  09:30  10:00
 -----------------------------------------------------------
-Sala 02 - 12 lugares    □      □      □      X      □
-Sala 04 - 04 lugares    □      □      □      □      □
-Sala 05 - 04 lugares    X      X      X      X      □
+Sala 02 - 12 assentos    □      □      □      X      □
+Sala 04 - 04 assentos    □      □      □      □      □
+Sala 05 - 04 assentos    X      X      X      X      □
 ```
 Funciona, mas exige que o usuário interprete uma grande quantidade de informação visual.
 
