@@ -558,6 +558,7 @@ Sala 05 - 04 lugares    X      X      X      X      □
 Funciona, mas exige que o usuário interprete uma grande quantidade de informação visual.
 
 #### Nova experiência
+```text
 ┌─────────────────────────────────────────────┐
 │ Reservar sala                               │
 │ Sala: [ Brasília ▼ ]                        │
@@ -572,6 +573,7 @@ Funciona, mas exige que o usuário interprete uma grande quantidade de informaç
 │ Sala 04        4 lugares       ✕ Capacidade │
 │ Sala 05        8 lugares       ✓ Disponível │
 └─────────────────────────────────────────────┘
+```
 - [ ] Protótipo UX
 - [ ] Validar protótipo com negócio
 - [ ] Aplicar identidade visual Caixa
