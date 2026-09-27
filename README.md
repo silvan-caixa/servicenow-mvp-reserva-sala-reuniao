@@ -132,3 +132,76 @@ A solução deverá possuir uma estrutura semelhante a:
                            │                │
                            ▼                │
                          Salas ─────────────┘
+```
+
+# 🚀 Steps de Desenvolvimento — MVP Reserva de Salas de Reunião
+
+> Projeto desenvolvido em ServiceNow para substituir o processo atual de reserva de salas de reunião.
+
+---
+
+# STEP 01 — Levantamento e definição do MVP
+
+## Objetivo
+
+Definir claramente o que será desenvolvido na primeira versão da aplicação.
+
+## Atividades
+
+- [ ] Documentar o processo atual
+- [ ] Identificar os principais problemas do sistema atual
+- [ ] Identificar os usuários envolvidos
+- [ ] Identificar responsáveis pelas salas
+- [ ] Identificar regras atuais de reserva
+- [ ] Identificar regras de cancelamento
+- [ ] Identificar regras de alteração
+- [ ] Identificar regras de bloqueio
+- [ ] Definir funcionalidades do MVP
+- [ ] Definir funcionalidades fora do MVP
+- [ ] Validar escopo com o negócio
+
+## Entregáveis
+
+- Documento de escopo
+- Lista de requisitos
+- Lista de regras de negócio
+- Definição do MVP
+
+## Critério de conclusão
+
+- [ ] Escopo aprovado pelo negócio
+
+---
+
+# STEP 02 — Criar a aplicação ServiceNow
+
+## Objetivo
+
+Criar a estrutura inicial da aplicação.
+
+## Atividades
+
+- [ ] Criar aplicação Scoped
+- [ ] Definir nome da aplicação
+- [ ] Definir nome técnico
+- [ ] Definir descrição
+- [ ] Definir Application Menu
+- [ ] Criar módulos iniciais
+- [ ] Definir padrão de nomenclatura
+- [ ] Validar escopo da aplicação
+
+## Entregáveis
+
+```text
+Application
+├── Application Menu
+├── Modules
+└── Application Scope
+```
+
+## Critério de conclusão
+ - [ ] Aplicação criada
+ - [ ] Scope validado
+ - [ ] Menu criado
+
+
