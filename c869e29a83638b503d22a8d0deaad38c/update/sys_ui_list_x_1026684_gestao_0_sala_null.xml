@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1026684_gestao_0_sala" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1026684_gestao_0_sala" element="NULL" name="x_1026684_gestao_0_sala" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ee672de83a38b503d22a8d0deaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:57:31</sys_created_on>
+            <sys_id>8ee672de83a38b503d22a8d0deaad377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:57:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1026684_gestao_0_sala" element="NULL" name="x_1026684_gestao_0_sala" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ee672de83a38b503d22a8d0deaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:57:31</sys_created_on>
+            <sys_id>06e672de83a38b503d22a8d0deaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:57:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1026684_gestao_0_sala" element="NULL" name="x_1026684_gestao_0_sala" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ee672de83a38b503d22a8d0deaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:57:31</sys_created_on>
+            <sys_id>8ae672de83a38b503d22a8d0deaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:57:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_1026684_gestao_0_sala" element="NULL" name="x_1026684_gestao_0_sala" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ee672de83a38b503d22a8d0deaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:57:31</sys_created_on>
+            <sys_id>02e672de83a38b503d22a8d0deaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:57:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_1026684_gestao_0_sala" element="NULL" name="x_1026684_gestao_0_sala" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ee672de83a38b503d22a8d0deaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:57:31</sys_created_on>
+            <sys_id>86e672de83a38b503d22a8d0deaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:57:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1026684_gestao_0_sala</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:57:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ee672de83a38b503d22a8d0deaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1026684_gestao_0_sala</sys_name>
+            <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
+            <sys_update_name>sys_ui_list_x_1026684_gestao_0_sala_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:57:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

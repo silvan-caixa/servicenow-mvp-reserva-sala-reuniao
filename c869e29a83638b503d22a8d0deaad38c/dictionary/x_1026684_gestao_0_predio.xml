@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c371fa9a83a38b503d22a8d0deaad38e" label="Predio" max_length="40" name="x_1026684_gestao_0_predio" type="collection">
+        <element label="Endereço" max_length="40" name="endereco" type="string"/>
+        <element label="Unidade" max_length="32" name="unidade" reference="x_1026684_gestao_0_unidade" type="reference"/>
+        <element choice="1" label="Fuso Horário" max_length="40" name="fuso_horario" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="America/Noronha" sequence="3" value="america_noronha"/>
+                <element inactive_on_update="false" label="America/Manuas" sequence="1" value="america_manuas"/>
+                <element inactive_on_update="false" label="America/Brasilia" sequence="0" value="america_brasilia"/>
+                <element inactive_on_update="false" label="America/Rio_Branco" sequence="2" value="america_rio_branco"/>
+            </choice>
+        </element>
+        <element choice="1" label="Estado" max_length="40" name="estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AP" sequence="2" value="ap"/>
+                <element inactive_on_update="false" label="AC" sequence="0" value="ac"/>
+                <element inactive_on_update="false" label="PA" sequence="13" value="pa"/>
+                <element inactive_on_update="false" label="RO" sequence="21" value="ro"/>
+                <element inactive_on_update="false" label="MS" sequence="11" value="ms"/>
+                <element inactive_on_update="false" label="RN" sequence="19" value="rn"/>
+                <element inactive_on_update="false" label="ES" sequence="7" value="ES"/>
+                <element inactive_on_update="false" label="MA" sequence="9" value="ma"/>
+                <element inactive_on_update="false" label="PI" sequence="17" value="pi"/>
+                <element inactive_on_update="false" label="SE" sequence="25" value="se"/>
+                <element inactive_on_update="false" label="CE" sequence="5" value="CE"/>
+                <element inactive_on_update="false" label="PR" sequence="15" value="pr"/>
+                <element inactive_on_update="false" label="SC" sequence="23" value="sc"/>
+                <element inactive_on_update="false" label="AL" sequence="1" value="al"/>
+                <element inactive_on_update="false" label="DF" sequence="6" value="DF"/>
+                <element inactive_on_update="false" label="GO" sequence="8" value="go"/>
+                <element inactive_on_update="false" label="PE" sequence="16" value="pe"/>
+                <element inactive_on_update="false" label="SP" sequence="24" value="sp"/>
+                <element inactive_on_update="false" label="BA" sequence="4" value="BA"/>
+                <element inactive_on_update="false" label="PB" sequence="14" value="pb"/>
+                <element inactive_on_update="false" label="RR" sequence="22" value="rr"/>
+                <element inactive_on_update="false" label="MG" sequence="12" value="mg"/>
+                <element inactive_on_update="false" label="RS" sequence="20" value="rs"/>
+                <element inactive_on_update="false" label="MT" sequence="10" value="mt"/>
+                <element inactive_on_update="false" label="RJ" sequence="18" value="rj"/>
+                <element inactive_on_update="false" label="TO" sequence="26" value="to"/>
+                <element inactive_on_update="false" label="AM" sequence="3" value="AM"/>
+            </choice>
+        </element>
+        <element label="Nome" max_length="40" name="nome" type="string"/>
+        <element label="Cidade" max_length="40" name="cidade" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ativo" sequence="0" value="ativo"/>
+                <element inactive_on_update="false" label="Inativo" sequence="1" value="inativo"/>
+            </choice>
+        </element>
+        <element label="Código" max_length="40" name="codigo" type="string"/>
+        <index name="index">
+            <element name="unidade"/>
+        </index>
+    </element>
+</database>

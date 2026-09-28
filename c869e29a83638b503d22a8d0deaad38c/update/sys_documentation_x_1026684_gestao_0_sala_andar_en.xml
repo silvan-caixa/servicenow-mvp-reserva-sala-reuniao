@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="andar" label="Andar" language="en" table="x_1026684_gestao_0_sala">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>andar</element>
+            <help/>
+            <hint/>
+            <label>Andar</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_sala</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 02:03:36</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Andar</sys_name>
+            <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
+            <sys_update_name>sys_documentation_x_1026684_gestao_0_sala_andar_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 02:03:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

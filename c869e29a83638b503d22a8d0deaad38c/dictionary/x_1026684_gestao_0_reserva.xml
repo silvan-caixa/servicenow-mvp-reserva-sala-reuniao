@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9f89fada83e38b503d22a8d0deaad3ef" extends="task" label="Reserva" max_length="40" name="x_1026684_gestao_0_reserva" type="collection">
+        <element label="Obeservação" max_length="40" name="obeservacao" type="string"/>
+        <element label="Data" max_length="40" name="data" type="glide_date"/>
+        <element label="Hora Final" max_length="40" name="hora_final" type="glide_time"/>
+        <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
+        <element label="Quantidade de Participante" max_length="40" name="quantidade_de_participante" type="integer"/>
+        <element label="Hora Inicial" max_length="40" name="hora_inicial" type="glide_time"/>
+        <element label="Sala" max_length="32" name="sala" reference="x_1026684_gestao_0_sala" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelada" sequence="3" value="cancelada"/>
+                <element inactive_on_update="false" label="Solicitada" sequence="0" value="solicitada"/>
+                <element inactive_on_update="false" label="Concluida" sequence="2" value="concluida"/>
+                <element inactive_on_update="false" label="Reservada" sequence="1" value="reservada"/>
+            </choice>
+        </element>
+    </element>
+</database>

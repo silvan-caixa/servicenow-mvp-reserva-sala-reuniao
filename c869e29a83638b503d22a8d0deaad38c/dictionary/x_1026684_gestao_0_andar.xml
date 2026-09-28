@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c1e5bad283e38b503d22a8d0deaad3ba" label="Andar" max_length="40" name="x_1026684_gestao_0_andar" type="collection">
+        <element label="Identificacao do Andar" max_length="40" name="identificacao_do_andar" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inativo" sequence="1" value="inativo"/>
+                <element inactive_on_update="false" label="Ativo" sequence="0" value="ativo"/>
+            </choice>
+        </element>
+        <element label="Predio" max_length="32" name="predio" reference="x_1026684_gestao_0_predio" type="reference"/>
+        <element label="Descricao" max_length="40" name="descricao" type="string"/>
+        <index name="index">
+            <element name="predio"/>
+        </index>
+    </element>
+</database>

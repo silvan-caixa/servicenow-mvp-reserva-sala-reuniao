@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="estado" table="x_1026684_gestao_0_predio" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>estado</element>
+            <name>x_1026684_gestao_0_predio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:42:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>estado</sys_name>
+            <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
+            <sys_update_name>sys_choice_x_1026684_gestao_0_predio_estado</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:42:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AC</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:49:11</sys_updated_on>
+            <value>ac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AL</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>al</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AP</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>ap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AM</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>AM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BA</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>BA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CE</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>CE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DF</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>DF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ES</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:47:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>ES</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GO</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>go</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MA</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>ma</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MT</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>mt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MS</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>ms</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MG</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>mg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PA</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>pa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PB</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>pb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PR</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>pr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PE</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>pe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PI</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>pi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RJ</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>rj</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RN</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>rn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RS</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>rs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RO</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>ro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RR</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>rr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SC</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>sc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SP</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>sp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SE</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>se</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TO</label>
+            <language>en</language>
+            <name>x_1026684_gestao_0_predio</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 01:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 01:52:01</sys_updated_on>
+            <value>to</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
