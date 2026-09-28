@@ -11,9 +11,9 @@ Criar a estrutura inicial da aplicação.
 - [X] Definir nome técnico
 - [X] Definir descrição
 - [X] Definir Application Menu
-- [ ] Criar módulos iniciais
-- [ ] Definir padrão de nomenclatura
-- [ ] Validar escopo da aplicação
+- [x] Criar módulos iniciais
+- [x] Definir padrão de nomenclatura
+- [x ] Validar escopo da aplicação
 
 ## Entregáveis
 
@@ -25,6 +25,6 @@ Application
 ```
 
 ## Critério de conclusão
- - [ ] Aplicação criada
- - [ ] Scope validado
- - [ ] Menu criado
+ - [x] Aplicação criada
+ - [x] Scope validado
+ - [x] Menu criado
