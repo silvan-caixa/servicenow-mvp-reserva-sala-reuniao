@@ -948,7 +948,7 @@ docs/
 - [ ] ATFs principais concluídos
 - [ ] Homologação concluída
 - [ ] Documentação concluída
-- [ ]Deployment concluído
+- [ ] Deployment concluído
 
 # STEP 28 — Evoluções futuras
 
@@ -956,24 +956,25 @@ Estas funcionalidades não fazem parte do MVP inicial.
 
 ## Gestão de Espaços
 - Vagas para veículos elétricos
- Vagas de visitantes
- Outros espaços
- Equipamentos
- Recursos compartilhados
- Outros tipos de reserva
-Integrações
- SAP
- Outlook
- Microsoft Graph
- Teams
- Outros sistemas corporativos
-Gestão
- Dashboard executivo
- Indicadores avançados
- Taxa de ocupação
- Análise de utilização
- Otimização de espaços
-📌 Fluxo geral do projeto
+- Vagas de visitantes
+- Outros espaços
+- Equipamentos
+- Recursos compartilhados
+- Outros tipos de reserva
+## Integrações
+- SAP
+- Outlook
+- Microsoft Graph
+- Teams
+- Outros sistemas corporativos
+## Gestão
+- Dashboard executivo
+- Indicadores avançados
+- Taxa de ocupação
+- Análise de utilização
+- Otimização de espaços
+## Fluxo geral do projeto
+```text
 STEP 01
 Levantamento
    ↓
@@ -1057,22 +1058,23 @@ MVP CONCLUÍDO
    ↓
 STEP 28
 EVOLUÇÕES
-🏁 Resultado esperado
+```
+## Resultado esperado
 
 Ao final dos Steps 01 a 27, teremos um MVP funcional de Reserva de Salas de Reunião em ServiceNow, disponível pelo Employee Center, permitindo:
 
-consulta de salas;
-consulta de disponibilidade;
-criação de reservas;
-alteração de reservas;
-cancelamento;
-controle de conflitos;
-controle de capacidade;
-bloqueio de salas;
-notificações;
-controle de acesso;
-relatórios;
-auditoria.
+- consulta de salas;
+- consulta de disponibilidade;
+- criação de reservas;
+- alteração de reservas;
+- cancelamento;
+- controle de conflitos;
+- controle de capacidade;
+- bloqueio de salas;
+- notificações;
+- controle de acesso;
+- relatórios;
+- auditoria.
 
 As funcionalidades de Gestão de Espaços serão desenvolvidas posteriormente, utilizando a arquitetura criada no MVP como base.
 
