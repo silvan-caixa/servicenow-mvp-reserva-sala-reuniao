@@ -1,0 +1,32 @@
+# STEP 01 — Levantamento e definição do MVP
+
+## Objetivo
+
+Definir claramente o que será desenvolvido na primeira versão da aplicação.
+
+## Atividades
+
+- [X] Documentar o processo atual => README
+- [ ] Identificar os principais problemas do sistema atual
+- [ ] Identificar os usuários envolvidos
+- [ ] Identificar responsáveis pelas salas
+- [ ] Identificar regras atuais de reserva
+- [ ] Identificar regras de cancelamento
+- [ ] Identificar regras de alteração
+- [ ] Identificar regras de bloqueio
+- [ ] Definir funcionalidades do MVP
+- [ ] Definir funcionalidades fora do MVP
+- [ ] Validar escopo com o negócio
+
+## Entregáveis
+
+- Documento de escopo
+- Lista de requisitos
+- Lista de regras de negócio
+- Definição do MVP
+
+## Critério de conclusão
+
+- [ ] Escopo aprovado pelo negócio
+
+---
