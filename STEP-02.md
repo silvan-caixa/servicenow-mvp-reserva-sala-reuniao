@@ -6,11 +6,11 @@ Criar a estrutura inicial da aplicação.
 
 ## Atividades
 
-- [ ] Criar aplicação Scoped
-- [ ] Definir nome da aplicação
-- [ ] Definir nome técnico
-- [ ] Definir descrição
-- [ ] Definir Application Menu
+- [X] Criar aplicação Scoped
+- [X] Definir nome da aplicação
+- [X] Definir nome técnico
+- [X] Definir descrição
+- [X] Definir Application Menu
 - [ ] Criar módulos iniciais
 - [ ] Definir padrão de nomenclatura
 - [ ] Validar escopo da aplicação
