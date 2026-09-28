@@ -13,7 +13,7 @@ Criar a estrutura inicial da aplicação.
 - [X] Definir Application Menu
 - [x] Criar módulos iniciais
 - [x] Definir padrão de nomenclatura
-- [x ] Validar escopo da aplicação
+- [x] Validar escopo da aplicação
 
 ## Entregáveis
 
