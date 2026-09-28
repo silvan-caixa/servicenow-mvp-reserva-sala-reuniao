@@ -4,21 +4,21 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Status" max_length="255" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Concluída" sequence="2" value="conclu_da"/>
                 <element inactive_on_update="false" label="Cancelado" sequence="3" value="cancelado"/>
+                <element inactive_on_update="false" label="Concluída" sequence="2" value="conclu_da"/>
                 <element inactive_on_update="false" label="Reservado" sequence="1" value="reservado"/>
                 <element inactive_on_update="false" label="Solicitado" sequence="0" value="solicitado"/>
             </choice>
         </element>
         <element choice="1" label="Fuso Horário" max_length="255" name="fuso_horario" type="choice">
             <choice>
-                <element inactive_on_update="false" label="America/Noronha" sequence="3" value="america_noronha"/>
-                <element inactive_on_update="false" label="America/Manuas" sequence="1" value="america_manuas"/>
                 <element inactive_on_update="false" label="America/Brasilia" sequence="0" value="america_brasilia"/>
+                <element inactive_on_update="false" label="America/Noronha" sequence="3" value="america_noronha"/>
                 <element inactive_on_update="false" label="America/Rio_Branco" sequence="2" value="america_rio_branco"/>
+                <element inactive_on_update="false" label="America/Manuas" sequence="1" value="america_manuas"/>
             </choice>
         </element>
-        <element label="Nome" max_length="40" name="nome" type="string"/>
+        <element display="true" label="Nome" max_length="40" name="nome" type="string"/>
         <element label="Código da Unidade" max_length="40" name="codigo_da_unidade" type="string"/>
         <element label="Região/Centralizadora" max_length="40" name="regiao_centralizadora" type="string"/>
         <index name="index">

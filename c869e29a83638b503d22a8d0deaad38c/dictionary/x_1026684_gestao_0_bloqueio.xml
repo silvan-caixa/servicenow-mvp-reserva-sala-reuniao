@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7b1387de83278b503d22a8d0deaad34b" label="Bloqueio" max_length="40" name="x_1026684_gestao_0_bloqueio" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Estado" max_length="40" name="estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ativo" sequence="0" value="ativo"/>
+                <element inactive_on_update="false" label="Inativo" sequence="1" value="inativo"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Hora Inicial" max_length="40" name="hora_inicial" type="glide_time"/>
+        <element label="Data Inicial" max_length="40" name="data_inicial" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Hora Final" max_length="40" name="hora_final" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Responsavel" max_length="32" name="responsavel" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Sala" max_length="32" name="sala" reference="x_1026684_gestao_0_sala" type="reference"/>
+        <element label="Data Final" max_length="40" name="data_final" type="glide_date"/>
+        <element label="Motivo" max_length="40" name="motivo" type="string"/>
+        <index name="index">
+            <element name="responsavel"/>
+        </index>
+        <index name="index2">
+            <element name="sala"/>
+        </index>
+    </element>
+</database>

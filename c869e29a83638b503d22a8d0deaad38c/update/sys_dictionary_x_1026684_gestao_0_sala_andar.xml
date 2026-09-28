@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="andar" table="x_1026684_gestao_0_sala">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_1026684_gestao_0_sala</name>
         <next_element/>
@@ -54,7 +54,7 @@
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
         <sys_update_name>sys_dictionary_x_1026684_gestao_0_sala_andar</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-28 02:03:41</sys_updated_on>
+        <sys_updated_on>2026-09-28 19:02:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

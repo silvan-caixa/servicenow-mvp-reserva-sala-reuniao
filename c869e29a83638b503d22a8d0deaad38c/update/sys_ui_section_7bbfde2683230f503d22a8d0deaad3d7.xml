@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="LOCALIZAÇÃO" section_id="7bbfde2683230f503d22a8d0deaad3d7" sys_domain="global" table="x_1026684_gestao_0_sala" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unidade</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 18:57:26</sys_created_on>
+            <sys_id>5250e2a683230f503d22a8d0deaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LOCALIZAÇÃO" display_value="LOCALIZAÇÃO" name="x_1026684_gestao_0_sala" sys_domain="global" view="Default view">7bbfde2683230f503d22a8d0deaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 18:57:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>predio</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 18:57:26</sys_created_on>
+            <sys_id>de50e2a683230f503d22a8d0deaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LOCALIZAÇÃO" display_value="LOCALIZAÇÃO" name="x_1026684_gestao_0_sala" sys_domain="global" view="Default view">7bbfde2683230f503d22a8d0deaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 18:57:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andar</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 18:57:26</sys_created_on>
+            <sys_id>5e50e2a683230f503d22a8d0deaad3c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LOCALIZAÇÃO" display_value="LOCALIZAÇÃO" name="x_1026684_gestao_0_sala" sys_domain="global" view="Default view">7bbfde2683230f503d22a8d0deaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 18:57:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>LOCALIZAÇÃO</caption>
+            <header>false</header>
+            <name>x_1026684_gestao_0_sala</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 18:54:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bbfde2683230f503d22a8d0deaad3d7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1026684_gestao_0_sala</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
+            <sys_update_name>sys_ui_section_7bbfde2683230f503d22a8d0deaad3d7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 18:57:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

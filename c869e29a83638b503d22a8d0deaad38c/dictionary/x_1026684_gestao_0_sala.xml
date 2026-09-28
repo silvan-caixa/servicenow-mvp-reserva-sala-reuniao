@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f1e6be5683e38b503d22a8d0deaad387" label="Sala" max_length="40" name="x_1026684_gestao_0_sala" type="collection">
-        <element label="Andar" max_length="32" name="andar" reference="x_1026684_gestao_0_andar" type="reference"/>
-        <element label="Predio" max_length="32" name="predio" reference="x_1026684_gestao_0_predio" type="reference"/>
-        <element label="Numero/Nome da Sala" max_length="40" name="numero_nome_da_sala" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Andar" mandatory="true" max_length="32" name="andar" reference="x_1026684_gestao_0_andar" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Predio" mandatory="true" max_length="32" name="predio" reference="x_1026684_gestao_0_predio" type="reference"/>
+        <element label="Responsavel" mandatory="true" max_length="32" name="responsavel" reference="sys_user" type="reference"/>
+        <element label="Numero/Nome da Sala" mandatory="true" max_length="40" name="numero_nome_da_sala" type="string"/>
         <element label="Observacao" max_length="40" name="observacao" type="string"/>
+        <element label="Motivo do Cancelamento" max_length="40" name="motivo_do_cancelamento" type="string"/>
+        <element label="Unidade" mandatory="true" max_length="32" name="unidade" reference="x_1026684_gestao_0_unidade" type="reference"/>
         <element label="Data de Encerramento" max_length="40" name="data_de_encerramento" type="glide_date_time"/>
         <element label="Disponivel para Reserva" max_length="40" name="disponivel_para_reserva" type="boolean"/>
         <element label="Data Inicio de Operacao" max_length="40" name="data_inicio_de_operacao" type="glide_date_time"/>
+        <element label="Assunto" max_length="40" name="assunto" type="string"/>
         <element label="Descricao" max_length="40" name="descricao" type="string"/>
-        <element label="Capacidade" max_length="40" name="capacidade" type="integer"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Capacidade" mandatory="true" max_length="40" name="capacidade" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Inativo" sequence="1" value="inativo"/>
+                <element inactive_on_update="false" label="Em manutencao" sequence="2" value="Em manutencao"/>
                 <element inactive_on_update="false" label="Ativo" sequence="0" value="ativo"/>
             </choice>
         </element>
+        <element label="Caracteristica" max_length="40" name="caracteristica" type="string"/>
+        <element label="Ativo para reserva" mandatory="true" max_length="255" name="ativo_para_reserva" type="boolean"/>
         <index name="index">
             <element name="andar"/>
         </index>
         <index name="index2">
             <element name="predio"/>
+        </index>
+        <index name="index3">
+            <element name="responsavel"/>
+        </index>
+        <index name="index4">
+            <element name="unidade"/>
         </index>
     </element>
 </database>
