@@ -303,44 +303,48 @@ Bloqueio
 
 Permitir administrar o inventário de salas.
 
-📋 Atividades
- Criar formulário
- Criar lista
- Criar campos obrigatórios
- Criar validações
- Criar identificação única
- Definir capacidade
- Definir características
- Definir responsável
- Definir status
- Criar ativação/inativação
- Testar cadastro
-📦 Entregável
+## Atividades
+- [ ] Criar formulário
+- [ ] Criar lista
+- [ ] Criar campos obrigatórios
+- [ ] Criar validações
+- [ ] Criar identificação única
+- [ ] Definir capacidade
+- [ ] Definir características
+- [ ] Definir responsável
+- [ ] Definir status
+- [ ] Criar ativação/inativação
+- [ ] Testar cadastro
+
+## Entregável
 Cadastro de Salas
-✅ Critério de conclusão
- Sala pode ser cadastrada
- Sala pode ser alterada
- Sala pode ser inativada
- Dados obrigatórios são validados
-🟢 STEP 06 — Criar carga do inventário
-🎯 Objetivo
+## Critério de conclusão
+- [ ] Sala pode ser cadastrada
+- [ ]  Sala pode ser alterada
+- [ ]  Sala pode ser inativada
+- [ ]  Dados obrigatórios são validados
+
+# STEP 06 — Criar carga do inventário
+## Objetivo
 
 Preparar a importação do inventário corporativo de salas.
 
-📋 Atividades
- Definir fonte do inventário
- Definir formato
- Criar Import Set
- Criar tabela de importação
- Criar Transform Map
- Mapear campos
- Definir Coalesce
- Tratar novos registros
- Tratar registros existentes
- Tratar registros inativos
- Testar carga
- Validar dados importados
-📦 Entregáveis
+## Atividades
+- [ ] Definir fonte do inventário
+- [ ] Definir formato
+- [ ] Criar Import Set
+- [ ] Criar tabela de importação
+- [ ] Criar Transform Map
+- [ ] Mapear campos
+- [ ] Definir Coalesce
+- [ ] Tratar novos registros
+- [ ] Tratar registros existentes
+- [ ] Tratar registros inativos
+- [ ] Testar carga
+- [ ] Validar dados importados
+
+## Entregáveis
+```text
 Arquivo
    ↓
 Import Set
@@ -348,25 +352,29 @@ Import Set
 Transform Map
    ↓
 Tabela de Salas
-✅ Critério de conclusão
- Inventário carregado corretamente
-🟢 STEP 07 — Criar consulta de disponibilidade
-🎯 Objetivo
+```
+## Critério de conclusão
+- [ ] Inventário carregado corretamente
+
+# STEP 07 — Criar consulta de disponibilidade
+## Objetivo
 
 Permitir que o usuário encontre salas disponíveis.
 
-📋 Atividades
- Selecionar unidade
- Selecionar prédio
- Selecionar andar
- Selecionar data
- Selecionar horário
- Informar quantidade de participantes
- Consultar salas
- Exibir capacidade
- Exibir características
- Exibir disponibilidade
-📐 Fluxo
+## Atividades
+- [ ] Selecionar unidade
+- [ ] Selecionar prédio
+- [ ] Selecionar andar
+- [ ] Selecionar data
+- [ ] Selecionar horário
+- [ ] Informar quantidade de participantes
+- [ ] Consultar salas
+- [ ] Exibir capacidade
+- [ ] Exibir características
+- [ ] Exibir disponibilidade
+
+## Fluxo
+```text
 Unidade
    ↓
 Prédio
@@ -380,24 +388,28 @@ Horário
 Participantes
    ↓
 Salas disponíveis
-✅ Critério de conclusão
- Usuário consegue consultar salas disponíveis
-🟢 STEP 08 — Criar regras de horário
-🎯 Objetivo
+```
+## Critério de conclusão
+- [ ] Usuário consegue consultar salas disponíveis
+
+# STEP 08 — Criar regras de horário
+## Objetivo
 
 Controlar quando uma sala pode ser reservada.
 
-📋 Atividades
- Definir horário inicial
- Definir horário final
- Definir intervalo de reserva
- Definir dias permitidos
- Tratar finais de semana
- Tratar feriados
- Avaliar regras por unidade
- Configurar timezone
- Testar diferentes fusos horários
-Exemplo
+## Atividades
+- [ ] Definir horário inicial
+- [ ] Definir horário final
+- [ ] Definir intervalo de reserva
+- [ ] Definir dias permitidos
+- [ ] Tratar finais de semana
+- [ ] Tratar feriados
+- [ ] Avaliar regras por unidade
+- [ ] Configurar timezone
+- [ ] Testar diferentes fusos horários
+
+## Exemplo
+```text
 08:00
 08:30
 09:00
@@ -405,25 +417,30 @@ Exemplo
 10:00
 10:30
 ...
-✅ Critério de conclusão
- Sistema impede reservas fora dos horários permitidos
-🟢 STEP 09 — Criar controle de conflitos
-🎯 Objetivo
+```
+
+ ## Critério de conclusão
+- [ ] Sistema impede reservas fora dos horários permitidos
+
+# STEP 09 — Criar controle de conflitos
+## Objetivo
 
 Impedir duas reservas simultâneas para a mesma sala.
 
-📋 Atividades
+## Atividades
  Criar regra de conflito
- Comparar sala
- Comparar data
- Comparar hora inicial
- Comparar hora final
- Detectar sobreposição
- Permitir horários consecutivos
- Impedir sobreposição parcial
- Criar mensagem de erro
- Testar concorrência
-Exemplo
+- [ ] Comparar sala
+- [ ] Comparar data
+- [ ] Comparar hora inicial
+- [ ] Comparar hora final
+- [ ] Detectar sobreposição
+- [ ] Permitir horários consecutivos
+- [ ] Impedir sobreposição parcial
+- [ ] Criar mensagem de erro
+- [ ] Testar concorrência
+
+## Exemplo
+```text
 Reserva existente
 10:00 ───────── 11:00
 
@@ -431,7 +448,11 @@ Nova reserva
 10:30 ───────── 11:30
 
 ❌ CONFLITO
+```
+
 Exemplo permitido
+
+```text
 Reserva existente
 10:00 ───────── 11:00
 
@@ -439,91 +460,107 @@ Nova reserva
 11:00 ───────── 12:00
 
 ✅ PERMITIDO
-✅ Critério de conclusão
- Sistema não permite reservas conflitantes
-🟢 STEP 10 — Criar controle de capacidade
-🎯 Objetivo
+```
+
+## Critério de conclusão
+- [ ] Sistema não permite reservas conflitantes
+
+# STEP 10 — Criar controle de capacidade
+## Objetivo
 
 Garantir que a quantidade de participantes seja compatível com a capacidade da sala.
 
-📋 Atividades
- Recuperar capacidade da sala
- Informar participantes
- Comparar participantes x capacidade
- Bloquear excesso
- Criar mensagem de erro
- Testar capacidade exata
- Testar capacidade excedida
-Exemplo
+## Atividades
+- [ ] Recuperar capacidade da sala
+- [ ] Informar participantes
+- [ ] Comparar participantes x capacidade
+- [ ] Bloquear excesso
+- [ ] Criar mensagem de erro
+- [ ] Testar capacidade exata
+- [ ] Testar capacidade excedida
+
+## Exemplo
+```text
 Sala: Sala 01
 Capacidade: 10
 
 Participantes: 8
 
 ✅ Reserva permitida
+```
+```text
 Sala: Sala 01
 Capacidade: 10
 
 Participantes: 15
 
 ❌ Reserva não permitida
-✅ Critério de conclusão
- Capacidade validada automaticamente
-🟢 STEP 11 — Criar bloqueio de salas
-🎯 Objetivo
+```
+
+## Critério de conclusão
+- [ ] Capacidade validada automaticamente
+
+# STEP 11 — Criar bloqueio de salas
+## Objetivo
 
 Permitir que responsáveis bloqueiem uma sala temporariamente.
 
-📋 Atividades
- Criar formulário
- Selecionar sala
- Informar período
- Informar motivo
- Criar bloqueio
- Impedir novas reservas
- Exibir sala como indisponível
- Registrar responsável
- Registrar histórico
- Definir tratamento de reservas existentes
-Exemplos
- Manutenção
- Evento
- Reforma
- Indisponibilidade
- Restrição operacional
-✅ Critério de conclusão
- Sala bloqueada não pode ser reservada
-🟢 STEP 12 — Criar Business Rules
-🎯 Objetivo
+## Atividades
+- [ ] Criar formulário
+- [ ] Selecionar sala
+- [ ] Informar período
+- [ ] Informar motivo
+- [ ] Criar bloqueio
+- [ ] Impedir novas reservas
+- [ ] Exibir sala como indisponível
+- [ ] Registrar responsável
+- [ ] Registrar histórico
+- [ ] Definir tratamento de reservas existentes
+
+## Exemplos
+ - [ ] Manutenção
+ - [ ] Evento
+ - [ ] Reforma
+ - [ ] Indisponibilidade
+ - [ ] Restrição operacional
+
+## Critério de conclusão
+- [ ] Sala bloqueada não pode ser reservada
+
+# STEP 12 — Criar Business Rules
+## Objetivo
 
 Implementar as validações de negócio no servidor.
 
-📋 Business Rules
-Reserva
- Validar sala ativa
- Validar disponibilidade
- Validar conflito
- Validar capacidade
- Validar horário
- Validar bloqueio
-Alteração
- Revalidar disponibilidade
- Revalidar conflito
- Revalidar capacidade
- Registrar alteração
-Cancelamento
- Validar permissão
- Validar antecedência
- Atualizar estado
- Registrar motivo
-✅ Critério de conclusão
- Todas as regras críticas executadas no servidor
-🟢 STEP 13 — Criar Flow Designer
-🎯 Objetivo
+## Business Rules
+### Reserva
+- [ ] Validar sala ativa
+- [ ] Validar disponibilidade
+- [ ] Validar conflito
+- [ ] Validar capacidade
+- [ ] Validar horário
+- [ ] Validar bloqueio
+### Alteração
+- [ ] Revalidar disponibilidade
+- [ ] Revalidar conflito
+- [ ] Revalidar capacidade
+- [ ] Registrar alteração
+### Cancelamento
+- [ ] Validar permissão
+- [ ] Validar antecedência
+- [ ] Atualizar estado
+- [ ] Registrar motivo
+
+## Critério de conclusão
+- [ ] Todas as regras críticas executadas no servidor
+
+# STEP 13 — Criar Flow Designer
+## Objetivo
 
 Automatizar o ciclo de vida da reserva.
 
-📋 Fluxo de criação
+## Fluxo de criação
+```text
 Reserva criada
       ↓
 Validar dados
@@ -535,7 +572,9 @@ Criar reserva
 Atualizar estado
       ↓
 Enviar confirmação
-📋 Fluxo de alteração
+```
+## Fluxo de alteração
+```text
 Reserva alterada
       ↓
 Validar dados
@@ -545,7 +584,10 @@ Validar disponibilidade
 Atualizar reserva
       ↓
 Enviar notificação
-📋 Fluxo de cancelamento
+```
+
+## Fluxo de cancelamento
+```text
 Reserva cancelada
       ↓
 Atualizar estado
@@ -553,75 +595,81 @@ Atualizar estado
 Liberar horário
       ↓
 Enviar notificação
-Checklist
- Criar Flow de criação
- Criar Flow de alteração
- Criar Flow de cancelamento
- Criar Flow de bloqueio
- Testar automações
-🟢 STEP 14 — Criar notificações
-🎯 Objetivo
+```
+## Checklist
+- [ ] Criar Flow de criação
+- [ ] Criar Flow de alteração
+- [ ] Criar Flow de cancelamento
+- [ ] Criar Flow de bloqueio
+- [ ] Testar automações
+
+# STEP 14 — Criar notificações
+## Objetivo
 
 Informar os usuários sobre alterações nas reservas.
 
-📋 Notificações
- Reserva criada
- Reserva alterada
- Reserva cancelada
- Sala bloqueada
- Reserva afetada por bloqueio
-Conteúdo
- Número da reserva
- Sala
- Prédio
- Data
- Horário
- Solicitante
- Assunto
- Observações
-✅ Critério de conclusão
- Notificações recebidas corretamente
-🟢 STEP 15 — Criar segurança e permissões
-🎯 Objetivo
+## Notificações
+- [ ] Reserva criada
+- [ ] Reserva alterada
+- [ ] Reserva cancelada
+- [ ] Sala bloqueada
+- [ ] Reserva afetada por bloqueio
+## Conteúdo
+- [ ] Número da reserva
+- [ ] Sala
+- [ ] Prédio
+- [ ] Data
+- [ ] Horário
+- [ ] Solicitante
+- [ ] Assunto
+- [ ] Observações
+## Critério de conclusão
+- [ ] Notificações recebidas corretamente
+
+# STEP 15 — Criar segurança e permissões
+## Objetivo
 
 Controlar o acesso aos dados e funcionalidades.
 
-👤 Usuário
- Consultar salas
- Consultar disponibilidade
- Criar reserva
- Consultar próprias reservas
- Alterar próprias reservas
- Cancelar próprias reservas
-👤 Gestor
- Gerenciar salas
- Bloquear salas
- Consultar reservas
- Administrar disponibilidade
-👤 Administrador
- Administração completa
-🔐 ACL
- Read
- Create
- Write
- Delete
- Testar acesso por perfil
-✅ Critério de conclusão
- Usuários só acessam o que é permitido
-🟢 STEP 16 — Criar experiência no Employee Center
-🎯 Objetivo
+## Usuário
+- [ ] Consultar salas
+- [ ] Consultar disponibilidade
+- [ ] Criar reserva
+- [ ] Consultar próprias reservas
+- [ ] Alterar próprias reservas
+- [ ] Cancelar próprias reservas
+## Gestor
+- [ ] Gerenciar salas
+- [ ] Bloquear salas
+- [ ] Consultar reservas
+- [ ] Administrar disponibilidade
+## Administrador
+- [ ] Administração completa
+## ACL
+- [ ] Read
+- [ ] Create
+- [ ] Write
+- [ ] Delete
+- [ ] Testar acesso por perfil
+## Critério de conclusão
+- [ ] Usuários só acessam o que é permitido
+
+# STEP 16 — Criar experiência no Employee Center
+## Objetivo
 
 Disponibilizar a funcionalidade para os empregados.
 
-📋 Atividades
- Criar entrada no Employee Center
- Criar categoria
- Criar item "Reserva de Sala"
- Criar descrição
- Criar ícone
- Criar navegação
- Criar acesso às minhas reservas
-Fluxo
+## Atividades
+- [ ] Criar entrada no Employee Center
+- [ ] Criar categoria
+- [ ] Criar item "Reserva de Sala"
+- [ ] Criar descrição
+- [ ] Criar ícone
+- [ ] Criar navegação
+- [ ] Criar acesso às minhas reservas
+
+## Fluxo
+```text
 Employee Center
       ↓
 Gestão de Espaços
@@ -631,24 +679,28 @@ Reserva de Sala
 Consultar disponibilidade
       ↓
 Reservar
-✅ Critério de conclusão
- Usuário consegue iniciar uma reserva pelo Employee Center
-🟢 STEP 17 — Criar interface de disponibilidade
-🎯 Objetivo
+```
+## Critério de conclusão
+- [ ] Usuário consegue iniciar uma reserva pelo Employee Center
+
+# STEP 17 — Criar interface de disponibilidade
+## Objetivo
 
 Criar uma experiência simples para visualizar as salas.
 
-📋 Atividades
- Criar tela de consulta
- Criar filtros
- Exibir salas
- Exibir capacidade
- Exibir características
- Exibir horários
- Exibir disponibilidade
- Exibir bloqueios
- Permitir seleção
-Exemplo
+## Atividades
+- [ ] Criar tela de consulta
+- [ ] Criar filtros
+- [ ] Exibir salas
+- [ ] Exibir capacidade
+- [ ] Exibir características
+- [ ] Exibir horários
+- [ ] Exibir disponibilidade
+- [ ] Exibir bloqueios
+- [ ] Permitir seleção
+
+## Exemplo
+```text
 Sala              08:00  08:30  09:00  09:30  10:00
 
 Sala 01 - 12      🟢     🟢     🔴     🟢     🟢
@@ -658,202 +710,213 @@ Legenda
 🟢 Disponível
 🔴 Ocupado
 ⚫ Bloqueado
-✅ Critério de conclusão
- Usuário identifica rapidamente os horários disponíveis
-🟢 STEP 18 — Criar "Minhas Reservas"
-🎯 Objetivo
+```
+## Critério de conclusão
+- [ ] Usuário identifica rapidamente os horários disponíveis
+
+# STEP 18 — Criar "Minhas Reservas"
+## Objetivo
 
 Permitir que o usuário acompanhe suas reservas.
 
-📋 Atividades
- Criar lista de reservas
- Exibir reservas futuras
- Exibir reservas realizadas
- Exibir reservas canceladas
- Visualizar detalhes
- Alterar reserva
- Cancelar reserva
-Informações
- Número
- Sala
- Data
- Horário
- Status
- Assunto
-✅ Critério de conclusão
- Usuário consegue gerenciar suas reservas
-🟢 STEP 19 — Criar relatórios
-🎯 Objetivo
+## Atividades
+- [ ] Criar lista de reservas
+- [ ] Exibir reservas futuras
+- [ ] Exibir reservas realizadas
+- [ ] Exibir reservas canceladas
+- [ ] Visualizar detalhes
+- [ ] Alterar reserva
+- [ ] Cancelar reserva
+## Informações
+- [ ] Número
+- [ ] Sala
+- [ ] Data
+- [ ] Horário
+- [ ] Status
+- [ ] Assunto
+## Critério de conclusão
+- [ ] Usuário consegue gerenciar suas reservas
+
+# STEP 19 — Criar relatórios
+## Objetivo
 
 Disponibilizar indicadores sobre utilização das salas.
 
-📊 Relatórios
- Reservas por sala
- Reservas por unidade
- Reservas por prédio
- Reservas por período
- Ocupação
- Cancelamentos
- Salas mais utilizadas
- Salas menos utilizadas
-📊 Dashboard
- Total de reservas
- Salas disponíveis
- Salas bloqueadas
- Taxa de ocupação
- Cancelamentos
- Reservas por unidade
- Reservas por prédio
-✅ Critério de conclusão
- Indicadores disponíveis para gestão
-🟢 STEP 20 — Testes funcionais
-🎯 Objetivo
+## Relatórios
+- [ ] Reservas por sala
+- [ ] Reservas por unidade
+- [ ] Reservas por prédio
+- [ ] Reservas por período
+- [ ] Ocupação
+- [ ] Cancelamentos
+- [ ] Salas mais utilizadas
+- [ ] Salas menos utilizadas
+## Dashboard
+- [ ] Total de reservas
+- [ ] Salas disponíveis
+- [ ] Salas bloqueadas
+- [ ] Taxa de ocupação
+- [ ] Cancelamentos
+- [ ] Reservas por unidade
+- [ ] Reservas por prédio
+## Critério de conclusão
+- [ ] Indicadores disponíveis para gestão
+
+# STEP 20 — Testes funcionais
+## Objetivo
 
 Validar todas as funcionalidades do MVP.
 
-Reserva
- Criar reserva válida
- Criar reserva inválida
- Reservar sala ocupada
- Reservar sala bloqueada
- Reservar sala inativa
- Reservar fora do horário
- Reservar acima da capacidade
- Alterar reserva
- Cancelar reserva
-Usuários
- Testar usuário comum
- Testar gestor
- Testar administrador
- Testar usuário sem permissão
-Concorrência
- Dois usuários reservando mesma sala
- Mesmo horário
- Horários sobrepostos
- Alteração simultânea
-✅ Critério de conclusão
- Casos críticos aprovados
-🟢 STEP 21 — Automated Test Framework
-🎯 Objetivo
+## Reserva
+- [ ] Criar reserva válida
+- [ ] Criar reserva inválida
+- [ ] Reservar sala ocupada
+- [ ] Reservar sala bloqueada
+- [ ] Reservar sala inativa
+- [ ] Reservar fora do horário
+- [ ] Reservar acima da capacidade
+- [ ] Alterar reserva
+- [ ] Cancelar reserva
+## Usuários
+- [ ] Testar usuário comum
+- [ ] Testar gestor
+- [ ] Testar administrador
+- [ ] Testar usuário sem permissão
+## Concorrência
+- [ ] Dois usuários reservando mesma sala
+- [ ] Mesmo horário
+- [ ] Horários sobrepostos
+- [ ] Alteração simultânea
+## Critério de conclusão
+- [ ] Casos críticos aprovados
+
+# STEP 21 — Automated Test Framework
+## Objetivo
 
 Automatizar os principais testes.
 
-📋 ATFs
- Criar reserva
- Consultar disponibilidade
- Validar conflito
- Validar capacidade
- Validar bloqueio
- Validar sala inativa
- Alterar reserva
- Cancelar reserva
- Criar bloqueio
- Validar segurança
-✅ Critério de conclusão
- Principais cenários automatizados
-🟢 STEP 22 — Auditoria e rastreabilidade
-🎯 Objetivo
+## ATFs
+- [ ] Criar reserva
+- [ ] Consultar disponibilidade
+- [ ] Validar conflito
+- [ ] Validar capacidade
+- [ ] Validar bloqueio
+- [ ] Validar sala inativa
+- [ ] Alterar reserva
+- [ ] Cancelar reserva
+- [ ] Criar bloqueio
+- [ ] Validar segurança
+## Critério de conclusão
+- [ ] Principais cenários automatizados
+
+# STEP 22 — Auditoria e rastreabilidade
+## Objetivo
 
 Garantir rastreabilidade das operações.
 
-📋 Registrar
- Quem criou
- Data de criação
- Quem alterou
- Data da alteração
- Quem cancelou
- Data do cancelamento
- Motivo do cancelamento
- Alterações de horário
- Alterações de sala
- Bloqueios
-✅ Critério de conclusão
- Histórico das principais operações disponível
-🟢 STEP 23 — Tratamento de erros
-🎯 Objetivo
+## Registrar
+- [ ] Quem criou
+- [ ] Data de criação
+- [ ] Quem alterou
+- [ ] Data da alteração
+- [ ] Quem cancelou
+- [ ] Data do cancelamento
+- [ ] Motivo do cancelamento
+- [ ] Alterações de horário
+- [ ] Alterações de sala
+- [ ] Bloqueios
+## Critério de conclusão
+- [ ] Histórico das principais operações disponível
+
+# STEP 23 — Tratamento de erros
+## Objetivo
 
 Garantir mensagens claras e recuperação adequada.
 
-📋 Atividades
- Criar mensagens amigáveis
- Tratar conflito
- Tratar sala indisponível
- Tratar sala inexistente
- Tratar capacidade excedida
- Tratar erro de integração
- Tratar erro de importação
- Registrar logs
- Definir reprocessamento
-✅ Critério de conclusão
- Erros críticos tratados
-🟢 STEP 24 — Homologação
-🎯 Objetivo
+## Atividades
+- [ ] Criar mensagens amigáveis
+- [ ] Tratar conflito
+- [ ] Tratar sala indisponível
+- [ ] Tratar sala inexistente
+- [ ] Tratar capacidade excedida
+- [ ] Tratar erro de integração
+- [ ] Tratar erro de importação
+- [ ] Registrar logs
+- [ ] Definir reprocessamento
+## Critério de conclusão
+- [ ] Erros críticos tratados
+
+# STEP 24 — Homologação
+## Objetivo
 
 Validar o MVP com os usuários do negócio.
 
-📋 Homologar
- Cadastro de salas
- Consulta
- Disponibilidade
- Reserva
- Alteração
- Cancelamento
- Bloqueio
- Notificações
- Relatórios
- Segurança
- Employee Center
-📋 Evidências
- Registrar testes
- Registrar evidências
- Registrar problemas
- Corrigir problemas
- Reexecutar testes
- Obter aceite
-✅ Critério de conclusão
- MVP homologado
-🟢 STEP 25 — Implantação
-🎯 Objetivo
+## Homologar
+- [ ] Cadastro de salas
+- [ ] Consulta
+- [ ] Disponibilidade
+- [ ] Reserva
+- [ ] Alteração
+- [ ] Cancelamento
+- [ ] Bloqueio
+- [ ] Notificações
+- [ ] Relatórios
+- [ ] Segurança
+- [ ] Employee Center
+## Evidências
+- [ ] Registrar testes
+- [ ] Registrar evidências
+- [ ] Registrar problemas
+- [ ] Corrigir problemas
+- [ ] Reexecutar testes
+- [ ] Obter aceite
+## Critério de conclusão
+- [ ] MVP homologado
+
+# STEP 25 — Implantação
+## Objetivo
 
 Disponibilizar o MVP para utilização.
 
-📋 Atividades
- Validar aplicação
- Validar configurações
- Validar roles
- Validar ACLs
- Validar dados
- Validar notificações
- Validar integrações
- Executar testes finais
- Executar deployment
- Validar ambiente
- Registrar versão
-✅ Critério de conclusão
- MVP implantado
-🟢 STEP 26 — Documentação
-🎯 Objetivo
+## Atividades
+- [ ] Validar aplicação
+- [ ] Validar configurações
+- [ ] Validar roles
+- [ ] Validar ACLs
+- [ ] Validar dados
+- [ ] Validar notificações
+- [ ] Validar integrações
+- [ ] Executar testes finais
+- [ ] Executar deployment
+- [ ] Validar ambiente
+- [ ] Registrar versão
+## Critério de conclusão
+- [ ] MVP implantado
+
+# STEP 26 — Documentação
+## Objetivo
 
 Documentar a solução para manutenção e evolução.
 
-📋 Documentar
- Arquitetura
- Modelo de dados
- Tabelas
- Campos
- Relacionamentos
- Business Rules
- Flows
- Notifications
- Roles
- ACLs
- Import Sets
- Transform Maps
- Integrações
- ATFs
- Regras de negócio
- Procedimentos operacionais
-📁 Estrutura sugerida
+## Documentar
+- [ ] Arquitetura
+- [ ] Modelo de dados
+- [ ] Tabelas
+- [ ] Campos
+- [ ] Relacionamentos
+- [ ] Business Rules
+- [ ] Flows
+- [ ] Notifications
+- [ ] Roles
+- [ ] ACLs
+- [ ] Import Sets
+- [ ] Transform Maps
+- [ ] Integrações
+- [ ] ATFs
+- [ ] Regras de negócio
+- [ ] Procedimentos operacionais
+## Estrutura sugerida
+```text
 docs/
 ├── 01-escopo.md
 ├── 02-arquitetura.md
@@ -864,33 +927,35 @@ docs/
 ├── 07-integracoes.md
 ├── 08-testes.md
 └── 09-implantacao.md
-🟢 STEP 27 — Encerramento do MVP
-🎯 Critérios finais
- Cadastro de salas funcionando
- Consulta de disponibilidade funcionando
- Reserva funcionando
- Alteração funcionando
- Cancelamento funcionando
- Controle de conflitos funcionando
- Controle de capacidade funcionando
- Bloqueio funcionando
- Business Rules funcionando
- Flows funcionando
- Notifications funcionando
- Segurança funcionando
- Employee Center funcionando
- Relatórios funcionando
- Testes concluídos
- ATFs principais concluídos
- Homologação concluída
- Documentação concluída
- Deployment concluído
-🔵 STEP 28 — Evoluções futuras
+```
+# STEP 27 — Encerramento do MVP
+## Critérios finais
+- [ ] Cadastro de salas funcionando
+- [ ] Consulta de disponibilidade funcionando
+- [ ] Reserva funcionando
+- [ ] Alteração funcionando
+- [ ] Cancelamento funcionando
+- [ ] Controle de conflitos funcionando
+- [ ] Controle de capacidade funcionando
+- [ ] Bloqueio funcionando
+- [ ] Business Rules funcionando
+- [ ] Flows funcionando
+- [ ] Notifications funcionando
+- [ ] Segurança funcionando
+- [ ] Employee Center funcionando
+- [ ] Relatórios funcionando
+- [ ] Testes concluídos
+- [ ] ATFs principais concluídos
+- [ ] Homologação concluída
+- [ ] Documentação concluída
+- [ ]Deployment concluído
+
+# STEP 28 — Evoluções futuras
 
 Estas funcionalidades não fazem parte do MVP inicial.
 
-Gestão de Espaços
- Vagas para veículos elétricos
+## Gestão de Espaços
+- Vagas para veículos elétricos
  Vagas de visitantes
  Outros espaços
  Equipamentos
