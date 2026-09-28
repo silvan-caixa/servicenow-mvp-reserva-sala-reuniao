@@ -4,18 +4,18 @@
 Definir como a aplicação será estruturada tecnicamente.
 
 ## Atividades
- - [ ] Definir entidades
- - [ ] Definir tabelas
- - [ ] Definir relacionamentos
- - [ ] Avaliar tabelas nativas ServiceNow
- - [ ] Avaliar tabelas customizadas
- - [ ] Avaliar extensão da tabela Task
- - [ ] Avaliar utilização de Location
- - [ ] Avaliar utilização de Building
- - [ ] Avaliar utilização de User
- - [ ] Evitar extensão desnecessária da CMDB
- - [ ] Definir estratégia para futuras expansões
- - [ ] Documentar decisões arquiteturais
+ - [x] Definir entidades
+ - [x] Definir tabelas
+ - [x] Definir relacionamentos
+ - [x] Avaliar tabelas nativas ServiceNow
+ - [x] Avaliar tabelas customizadas
+ - [x] Avaliar extensão da tabela Task
+ - [x] Avaliar utilização de Location
+ - [x] Avaliar utilização de Building
+ - [x] Avaliar utilização de User
+ - [x] Evitar extensão desnecessária da CMDB
+ - [x] Definir estratégia para futuras expansões
+ - [x] Documentar decisões arquiteturais
 
 ## Modelo inicial
 ```text
@@ -32,8 +32,8 @@ Unidade
                         └── Bloqueio
 ```
 ## Entregáveis
-- [ ] Diagrama da arquitetura
-- [ ] Modelo conceitual
-- [ ] Decisões arquiteturais
+- [x] Diagrama da arquitetura
+- [x] Modelo conceitual
+- [x] Decisões arquiteturais
 ## Critério de conclusão
- - [ ] Arquitetura aprovada
+ - [x] Arquitetura aprovada
