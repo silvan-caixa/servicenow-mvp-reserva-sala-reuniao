@@ -5,49 +5,49 @@ Criar a estrutura de dados necessária para o MVP.
 
 ## Atividades
 Sala
-- [ ] Criar tabela de sala
-- [ ] Número/código
-- [ ] Nome
-- [ ] Unidade
-- [ ] Prédio
-- [ ] Andar
-- [ ] Capacidade
-- [ ] Características
-- [ ] Responsável
-- [ ] Status
-- [ ] Ativo
+- [x] Criar tabela de sala
+- [x] Número/código
+- [x] Nome
+- [x] Unidade
+- [x] Prédio
+- [x] Andar
+- [x] Capacidade
+- [x] Características
+- [x] Responsável
+- [x] Status
+- [x] Ativo
 Reserva
-- [ ] Criar tabela de reserva
-- [ ] Número
-- [ ] Solicitante
-- [ ] Sala
-- [ ] Data
-- [ ] Hora inicial
-- [ ] Hora final
-- [ ] Quantidade de participantes
-- [ ] Assunto
-- [ ] Observações
-- [ ] Estado
-- [ ] Motivo do cancelamento
+- [x] Criar tabela de reserva
+- [x] Número
+- [x] Solicitante
+- [x] Sala
+- [x] Data
+- [x] Hora inicial
+- [x] Hora final
+- [x] Quantidade de participantes
+- [x] Assunto
+- [x] Observações
+- [x] Estado
+- [x] Motivo do cancelamento
 
 Bloqueio
-- [ ] Criar tabela de bloqueio
-- [ ] Sala
-- [ ] Data inicial
-- [ ] Data final
-- [ ] Hora inicial
-- [ ] Hora final
-- [ ] Motivo
-- [ ] Responsável
-- [ ] Estado
+- [x] Criar tabela de bloqueio
+- [x] Sala
+- [x] Data inicial
+- [x] Data final
+- [x] Hora inicial
+- [x] Hora final
+- [x] Motivo
+- [x] Responsável
+- [x] Estado
 
 ## Entregáveis
-- [ ] Sala
-- [ ] Reserva
-- [ ] Bloqueio
+- [x] Sala
+- [x] Reserva
+- [x] Bloqueio
 
  ## Critério de conclusão
- - [ ] Tabelas criadas
- - [ ] Campos criados
- - [ ] Referências configuradas
- - [ ] Relacionamentos testados
+ - [x] Tabelas criadas
+ - [x] Campos criados
+ - [x] Referências configuradas
+ - [x] Relacionamentos testados
