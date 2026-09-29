@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2d6de72283ab0f503d22a8d0deaad305" extends="sys_import_set_row" label="Inventario de salas" max_length="40" name="x_1026684_gestao_0_inventario_de_salas" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Responsavel" label="Responsavel" max_length="40" name="u_responsavel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Unidade" label="Unidade" max_length="40" name="u_unidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Capacidade" label="Capacidade" max_length="40" name="u_capacidade" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Predio" label="Predio" max_length="40" name="u_predio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ativo_para_reserva" label="Ativo_para_reserva" max_length="40" name="u_ativo_para_reserva" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Numero" label="Numero" max_length="40" name="u_numero" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Andar" label="Andar" max_length="40" name="u_andar" type="string"/>
+    </element>
+</database>
