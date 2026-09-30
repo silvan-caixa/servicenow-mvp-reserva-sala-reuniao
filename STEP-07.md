@@ -31,5 +31,26 @@ Participantes
    ↓
 Salas disponíveis
 ```
+## UX
+```
+┌──────────────────────────────────────────────┐
+│       CONSULTA DE DISPONIBILIDADE            │
+│                                              │
+│ Unidade     Prédio       Andar               │
+│ [▼]         [▼]          [▼]                 │
+│                                              │
+│ Data        Horário      Participantes       │
+│ [📅]        [🕐]         [   ]                │
+│                                              │
+│              [ CONSULTAR SALAS ]             │
+│                                              │
+│ RESULTADO                                    │
+│                                              │
+│ Sala 001 - Reunião                           │
+│ Capacidade: 12                               │
+│ Características: ...                         │
+│ Disponibilidade: DISPONÍVEL                  │
+└──────────────────────────────────────────────┘
+```
 ## Critério de conclusão
 - [ ] Usuário consegue consultar salas disponíveis
