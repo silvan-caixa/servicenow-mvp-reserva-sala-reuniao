@@ -12,7 +12,7 @@
 * @param {any} params.event
 * @param {any} params.imports
 * @param {ApiHelpers} params.helpers
-*/
+
 function handler({api, event, helpers, imports}) {
     const value = event.payload.value;
 
@@ -20,20 +20,61 @@ function handler({api, event, helpers, imports}) {
         'select_building',
         Array.isArray(value) ? value[0] : value
     );
+}
+
+function handler({api, event, helpers, imports}) {
+
+    const value = event.payload.value;
+    const predio = Array.isArray(value) ? value[0] : value;
+
+    api.setState('select_building', predio);
+
+    // Ao mudar o prédio, o andar anterior deixa de ser válido
+    api.setState('select_floor', '');
+
+    let filters = [];
+
+    if (api.state.select_unit) {
+        filters.push('unidade=' + api.state.select_unit);
+    }
+
+    if (predio) {
+        filters.push('predio=' + predio);
+    }
+
+    filters.push('ativo_para_reserva=true');
+
+    api.setState('room_filter', filters.join('^'));
+}
+*/
+function handler({api, event, helpers, imports}) {
+
+    const value = event.payload.value;
+
+    const predio = Array.isArray(value) ? value[0] : value;
+
+    console.log('===== SET SELECTED BUILDING =====');
+    console.log('Valor recebido:', value);
+    console.log('Prédio armazenado:', predio);
+
+    api.setState('select_building', predio);
+
+    // Ao trocar o prédio, limpa o andar selecionado
+    api.setState('select_floor', '');
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-30 18:09:47</sys_created_on>
         <sys_id>42c4589783ef03903d22a8d0deaad371</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Set Selected Building</sys_name>
         <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
         <sys_update_name>sys_ux_client_script_42c4589783ef03903d22a8d0deaad371</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-30 18:22:59</sys_updated_on>
+        <sys_updated_on>2026-10-01 21:51:56</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

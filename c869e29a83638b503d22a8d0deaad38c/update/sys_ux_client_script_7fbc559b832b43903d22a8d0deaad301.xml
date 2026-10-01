@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Consulta de Disponibilidade">eff4514b83e7cf503d22a8d0deaad358</macroponent>
+        <name>Build Room Filter</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+
+function handler({api, event, helpers, imports}) {
+
+    const filters = [];
+
+    if (api.state.select_unit) {
+        filters.push("unidade=" + api.state.select_unit);
+    }
+
+    if (api.state.select_building) {
+        filters.push("predio=" + api.state.select_building);
+    }
+
+    if (api.state.select_floor) {
+        filters.push("andar=" + api.state.select_floor);
+    }
+
+    filters.push("ativo_para_reserva=true");
+
+    api.setState(
+        "room_filter",
+        filters.join("^")
+    );
+}
+
+function handler({api, event, helpers, imports}) {
+
+    const filters = [];
+
+    console.log('========== BUILD ROOM FILTER ==========');
+    console.log('select_unit:', api.state.select_unit);
+    console.log('select_building:', api.state.select_building);
+    console.log('select_floor:', api.state.select_floor);
+
+    if (api.state.select_unit) {
+        filters.push('unidade=' + api.state.select_unit);
+    }
+
+    if (api.state.select_building) {
+        filters.push('predio=' + api.state.select_building);
+    }
+
+    if (api.state.select_floor) {
+        filters.push('andar=' + api.state.select_floor);
+    }
+
+    filters.push('ativo_para_reserva=true');
+
+    const filtroFinal = filters.join('^');
+
+    console.log('FILTRO FINAL:', filtroFinal);
+
+    api.setState('room_filter', filtroFinal);
+}
+*/
+
+
+
+
+
+
+
+function handler({api, event, helpers, imports}) {
+
+    const filters = [];
+
+    console.log('========== BUILD ROOM FILTER ==========');
+    console.log('select_unit:', api.state.select_unit);
+    console.log('select_building:', api.state.select_building);
+    console.log('select_floor:', api.state.select_floor);
+
+    if (api.state.select_unit) {
+        filters.push('unidade=' + api.state.select_unit);
+    }
+
+    if (api.state.select_building) {
+        filters.push('predio=' + api.state.select_building);
+    }
+
+    if (api.state.select_floor) {
+        filters.push('andar=' + api.state.select_floor);
+    }
+
+    filters.push('ativo_para_reserva=true');
+
+    const filtroFinal = filters.join('^');
+
+    console.log('FILTRO FINAL:', filtroFinal);
+
+    api.setState('room_filter', filtroFinal);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 22:19:49</sys_created_on>
+        <sys_id>7fbc559b832b43903d22a8d0deaad301</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Build Room Filter</sys_name>
+        <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
+        <sys_update_name>sys_ux_client_script_7fbc559b832b43903d22a8d0deaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-01 22:09:35</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

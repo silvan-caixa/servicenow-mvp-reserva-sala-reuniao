@@ -3,7 +3,7 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Consulta de Disponibilidade">eff4514b83e7cf503d22a8d0deaad358</macroponent>
-        <name>Set Selected Unit</name>
+        <name>New client script 1</name>
         <preset/>
         <required_translations>[]</required_translations>
         <script><![CDATA[/**
@@ -13,50 +13,22 @@
 * @param {any} params.imports
 * @param {ApiHelpers} params.helpers
 */
-/*
-function handler({api, event, helpers, imports}) {
-    const value = event.payload.value;
-
-    api.setState(
-        'select_unit',
-        Array.isArray(value) ? value[0] : value
-    );
-}
-*/
 function handler({api, event, helpers, imports}) {
 
-    const value = event.payload.value;
-    const unidade = Array.isArray(value) ? value[0] : value;
-
-    // Atualiza a unidade selecionada
-    api.setState('select_unit', unidade);
-
-    // Limpa os filtros dependentes
-    api.setState('select_building', '');
-    api.setState('select_floor', '');
-
-    // Monta o filtro das salas
-    let filtro = 'ativo_para_reserva=true';
-
-    if (unidade) {
-        filtro = 'unidade=' + unidade + '^' + filtro;
-    }
-
-    api.setState('room_filter', filtro);
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-30 17:04:21</sys_created_on>
-        <sys_id>0ec4589783ef03903d22a8d0deaad370</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Set Selected Unit</sys_name>
+        <sys_created_on>2026-10-01 22:55:28</sys_created_on>
+        <sys_id>8633eeeb83e307903d22a8d0deaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
         <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
-        <sys_update_name>sys_ux_client_script_0ec4589783ef03903d22a8d0deaad370</sys_update_name>
+        <sys_update_name>sys_ux_client_script_8633eeeb83e307903d22a8d0deaad3eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-30 22:30:02</sys_updated_on>
+        <sys_updated_on>2026-10-01 22:55:28</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
