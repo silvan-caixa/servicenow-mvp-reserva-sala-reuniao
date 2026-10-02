@@ -17,8 +17,9 @@ Funciona, mas exige que o usuário interprete uma grande quantidade de informaç
 #### Nova experiência
 ```text
 ┌─────────────────────────────────────────────┐
-│ Reservar sala                               │
-│ Sala: [ Brasília ▼ ]                        │
+│ Reservar sala
+| Prédio: [ Matriz II ▼ ]                     │
+│ Sala: [ Sala 02 ▼ ]                         │
 │ Data: [ 25/09/2026             ▼ ]          │
 │ Horário: [ 10:00 ▼ ] até [ 11:00 ▼ ]        │
 │ Pessoas: [ 8 participantes     ▼ ]          │
