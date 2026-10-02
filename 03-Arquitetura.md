@@ -1,4 +1,4 @@
-### A arquitetura inicial pode ser:
+### A arquitetura:
 
 ```text
                 Gestão de Espaços
