@@ -134,7 +134,7 @@ A solução deverá possuir uma estrutura semelhante a:
                          Salas ─────────────┘
 ```
 
-# 🚀 Steps de Desenvolvimento — MVP Reserva de Salas de Reunião
+# Steps de Desenvolvimento — MVP Reserva de Salas de Reunião
 
 > Projeto desenvolvido em ServiceNow para substituir o processo atual de reserva de salas de reunião.
 
