@@ -7,11 +7,11 @@
 - [x] Processo de reserva
 - [x] Regras de negócio
 ## 2. Design & build data model
-- [ ] Tabelas
-- [ ] Campos
-- [ ] Relacionamentos
-- [ ] Dados iniciais das salas
-- [ ] Modelo de reserva
+- [x] Tabelas
+- [x] Campos
+- [x] Relacionamentos
+- [x] Dados iniciais das salas
+- [x] Modelo de reserva
 ## 3. Design & create user interface
 - [ ] Employee Center
 - [ ] Service Catalog
