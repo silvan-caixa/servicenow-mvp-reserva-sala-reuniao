@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Consulta de Disponibilidade">eff4514b83e7cf503d22a8d0deaad358</macroponent>
+        <name>rich_text_1/now_default/html</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function evaluateProperty({api}) {
+
+    const data = api.state.selected_date;
+    const horario = api.state.selected_time;
+    const participantes = api.state.participants_count;
+
+    if (!data && !horario && !participantes) {
+        return 'Selecione data, horário e quantidade de participantes para consultar as salas.';
+    }
+
+    let dataFormatada = data || '—';
+
+    if (data) {
+        const somenteData = data.substring(0, 10);
+        const partes = somenteData.split('-');
+
+        if (partes.length === 3) {
+            dataFormatada =
+                partes[2] + '/' +
+                partes[1] + '/' +
+                partes[0];
+        }
+    }
+
+    return 'Salas disponíveis para ' +
+        (participantes || '—') +
+        ' participantes • ' +
+        dataFormatada +
+        ' às ' +
+        (horario || '—');
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 01:55:43</sys_created_on>
+        <sys_id>d36bec1d833343d03d22a8d0deaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rich_text_1/now_default/html</sys_name>
+        <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
+        <sys_update_name>sys_ux_client_script_d36bec1d833343d03d22a8d0deaad35e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 01:55:43</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

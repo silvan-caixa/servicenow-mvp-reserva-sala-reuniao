@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>37897a9683e38b503d22a8d0deaad3e9</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>0aadcba3836b07903d22a8d0deaad34b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>b3897a9683e38b503d22a8d0deaad3ea</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>86adcba3836b07903d22a8d0deaad34c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,139 +32,181 @@
             <element>cmdb_ci</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>33897a9683e38b503d22a8d0deaad3eb</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>06adcba3836b07903d22a8d0deaad34d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hora_inicial</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>82adcba3836b07903d22a8d0deaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hora_final</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>02adcba3836b07903d22a8d0deaad34f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>3f897a9683e38b503d22a8d0deaad3ec</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>8eadcba3836b07903d22a8d0deaad34f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>bf897a9683e38b503d22a8d0deaad3eb</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>0eadcba3836b07903d22a8d0deaad350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>37893eda83e38b503d22a8d0deaad39e</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>8aadcba3836b07903d22a8d0deaad351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>b3893eda83e38b503d22a8d0deaad39f</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>0aadcba3836b07903d22a8d0deaad352</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>33893eda83e38b503d22a8d0deaad3a0</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>86adcba3836b07903d22a8d0deaad353</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantidade_de_participante</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>06adcba3836b07903d22a8d0deaad354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>bf893eda83e38b503d22a8d0deaad3a0</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>82adcba3836b07903d22a8d0deaad355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>9</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>3f893eda83e38b503d22a8d0deaad3a1</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>02adcba3836b07903d22a8d0deaad356</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>10</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>bb893eda83e38b503d22a8d0deaad3a2</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>8eadcba3836b07903d22a8d0deaad356</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>11</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-28 02:09:06</sys_created_on>
-            <sys_id>3b893eda83e38b503d22a8d0deaad3a3</sys_id>
+            <sys_created_on>2026-10-02 00:49:19</sys_created_on>
+            <sys_id>0eadcba3836b07903d22a8d0deaad357</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_gestao_0_reserva" sys_domain="global" view="Default view">37897a9683e38b503d22a8d0deaad3e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-28 02:09:06</sys_updated_on>
+            <sys_updated_on>2026-10-02 00:49:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Andar" mandatory="true" max_length="32" name="andar" reference="x_1026684_gestao_0_andar" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Predio" mandatory="true" max_length="32" name="predio" reference="x_1026684_gestao_0_predio" type="reference"/>
         <element label="Responsavel" mandatory="true" max_length="32" name="responsavel" reference="sys_user" type="reference"/>
-        <element label="Numero/Nome da Sala" mandatory="true" max_length="40" name="numero_nome_da_sala" type="string"/>
+        <element display="true" label="Numero/Nome da Sala" mandatory="true" max_length="40" name="numero_nome_da_sala" type="string"/>
         <element label="Observacao" max_length="40" name="observacao" type="string"/>
         <element label="Motivo do Cancelamento" max_length="40" name="motivo_do_cancelamento" type="string"/>
         <element label="Codigo da Sala" max_length="40" name="codigo_da_sala" type="string"/>
@@ -16,9 +16,9 @@
         <element attributes="edge_encryption_enabled=true" label="Capacidade" mandatory="true" max_length="40" name="capacidade" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Ativo" sequence="0" value="ativo"/>
                 <element inactive_on_update="false" label="Em manutencao" sequence="2" value="Em manutencao"/>
                 <element inactive_on_update="false" label="Inativo" sequence="1" value="inativo"/>
+                <element inactive_on_update="false" label="Ativo" sequence="0" value="ativo"/>
             </choice>
         </element>
         <element label="Caracteristica" max_length="40" name="caracteristica" type="string"/>

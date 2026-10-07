@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="hora_inicial" table="x_1026684_gestao_0_reserva">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -33,8 +33,8 @@
         <name>x_1026684_gestao_0_reserva</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
+        <read_only>true</read_only>
+        <read_only_option>instance_configured</read_only_option>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -54,7 +54,7 @@
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
         <sys_update_name>sys_dictionary_x_1026684_gestao_0_reserva_hora_inicial</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-28 02:17:08</sys_updated_on>
+        <sys_updated_on>2026-10-02 00:48:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

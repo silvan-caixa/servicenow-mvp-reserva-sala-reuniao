@@ -6,31 +6,12 @@
         <name>set Participants Count</name>
         <preset/>
         <required_translations>[]</required_translations>
-        <script><![CDATA[/**
-* @param {params} params
-* @param {api} params.api
-* @param {any} params.event
-* @param {any} params.imports
-* @param {ApiHelpers} params.helpers
-
-function handler({api, event, helpers, imports}) {
-
-    const value = event.payload.value;
-
-    const participantes = Array.isArray(value)
-        ? value[0]
-        : value;
-
-    api.setState('participants_count', participantes);
-
-    console.log('===== PARTICIPANTES =====');
-    console.log('Valor:', participantes);
-}
-
-
-*/
-
-function handler({api, event, helpers, imports}) {
+        <script><![CDATA[function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
 
     const participantes = event.payload.value || '';
 
@@ -41,10 +22,6 @@ function handler({api, event, helpers, imports}) {
 
     const filters = [];
 
-    if (api.state.select_unit) {
-        filters.push('unidade=' + api.state.select_unit);
-    }
-
     if (api.state.select_building) {
         filters.push('predio=' + api.state.select_building);
     }
@@ -53,18 +30,20 @@ function handler({api, event, helpers, imports}) {
         filters.push('andar=' + api.state.select_floor);
     }
 
-    // Somente salas disponíveis para reserva
     filters.push('ativo_para_reserva=true');
 
-    // Capacidade mínima
     if (participantes && !isNaN(Number(participantes))) {
         filters.push('capacidade>=' + Number(participantes));
     }
 
     const roomFilter = filters.join('^');
 
-    console.log('ROOM FILTER:', roomFilter);
+    const salasIndisponiveis = api.state.unavailable_rooms || [];
 
+    if (salasIndisponiveis.length > 0) {
+        roomFilter += '^sys_idNOT IN' + salasIndisponiveis.join(',');
+    }
+    console.log('ROOM FILTER:', roomFilter);
     api.setState('room_filter', roomFilter);
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
@@ -72,14 +51,14 @@ function handler({api, event, helpers, imports}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-01 22:55:28</sys_created_on>
         <sys_id>c633eeeb83e307903d22a8d0deaad3eb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>set Participants Count</sys_name>
         <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
         <sys_update_name>sys_ux_client_script_c633eeeb83e307903d22a8d0deaad3eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-01 23:10:06</sys_updated_on>
+        <sys_updated_on>2026-10-07 00:03:05</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

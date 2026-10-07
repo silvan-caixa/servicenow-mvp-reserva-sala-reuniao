@@ -3,7 +3,7 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Consulta de Disponibilidade">eff4514b83e7cf503d22a8d0deaad358</macroponent>
-        <name>New client script 1</name>
+        <name>Consulta Iniciada</name>
         <preset/>
         <required_translations>[]</required_translations>
         <script><![CDATA[/**
@@ -13,22 +13,49 @@
 * @param {any} params.imports
 * @param {ApiHelpers} params.helpers
 */
+
 function handler({api, event, helpers, imports}) {
 
-}]]></script>
+    console.log('===== RESERVAS CONSULTADAS =====');
+
+    const reservas =
+        api.data.look_up_multiple_records_reservas.results || [];
+
+    console.log('===== DATA RESOURCES =====');
+    console.log(api.data);
+
+    console.log('===== LOOKUP RESERVA =====');
+    console.log(api.data.look_up_multiple_records_reservas);
+
+
+    console.log('Quantidade de reservas:', reservas.length);
+    console.log('Reservas:', reservas);
+
+    reservas.forEach(function(reserva, index) {
+
+        console.log(
+            'Reserva ' + index,
+            'Sala:', reserva.sala,
+            'Data:', reserva.data,
+            'Hora inicial:', reserva.hora_inicial,
+            'Hora final:', reserva.hora_final
+        );
+    });
+}
+]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-01 22:55:28</sys_created_on>
-        <sys_id>8633eeeb83e307903d22a8d0deaad3eb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>New client script 1</sys_name>
+        <sys_created_on>2026-10-02 00:26:54</sys_created_on>
+        <sys_id>ca33eeeb83e307903d22a8d0deaad3eb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Consulta Iniciada</sys_name>
         <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
-        <sys_update_name>sys_ux_client_script_8633eeeb83e307903d22a8d0deaad3eb</sys_update_name>
+        <sys_update_name>sys_ux_client_script_ca33eeeb83e307903d22a8d0deaad3eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-01 22:55:28</sys_updated_on>
+        <sys_updated_on>2026-10-02 01:17:44</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

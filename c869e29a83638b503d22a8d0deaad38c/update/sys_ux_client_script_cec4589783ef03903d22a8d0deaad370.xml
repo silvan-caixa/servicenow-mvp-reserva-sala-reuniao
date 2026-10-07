@@ -6,41 +6,16 @@
         <name>select_3/now_default/items</name>
         <preset/>
         <required_translations>[]</required_translations>
-        <script><![CDATA[/**
-  * @param {params} params
-  * @param {api} params.api
-  * @param {TransformApiHelpers} params.helpers
-  
-function evaluateProperty({api, helpers}) {
+        <script><![CDATA[function evaluateProperty({api, helpers}) {
 
     const results = api.data.look_up_multiple_records_3.results || [];
 
     const predioSelecionado = api.state.select_building;
 
-    return results
-        .filter(function(record) {
-            return record.predio &&
-                   record.predio.value === predioSelecionado;
-        })
-        .map(function(record) {
-            return {
-                id: record._row_data.uniqueValue,
-                label: record.identificacao_do_andar.displayValue || record.identificacao_do_andar.value
-            };
-        });
-}
-*/
+    //console.log('===== TESTE SELECT 3 =====');
+    //console.log('Prédio selecionado:', predioSelecionado);
 
-function evaluateProperty({api, helpers}) {
-
-    const results = api.data.look_up_multiple_records_3.results || [];
-
-    const predioSelecionado = api.state.select_building;
-
-    console.log('===== TESTE SELECT 3 =====');
-    console.log('Prédio selecionado:', predioSelecionado);
-
-    results.forEach(function(record) {
+    /*results.forEach(function(record) {
         console.log(
             'Andar:',
             record.identificacao_do_andar?.displayValue,
@@ -52,6 +27,7 @@ function evaluateProperty({api, helpers}) {
             record.predio?.value === predioSelecionado
         );
     });
+    */
 
     return results
         .filter(function(record) {
@@ -71,14 +47,14 @@ function evaluateProperty({api, helpers}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-30 18:09:47</sys_created_on>
         <sys_id>cec4589783ef03903d22a8d0deaad370</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>select_3/now_default/items</sys_name>
         <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
         <sys_update_name>sys_ux_client_script_cec4589783ef03903d22a8d0deaad370</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-01 21:46:57</sys_updated_on>
+        <sys_updated_on>2026-10-06 23:38:43</sys_updated_on>
         <target>macroponent</target>
         <type>transform</type>
     </sys_ux_client_script>

@@ -6,24 +6,7 @@
         <name>Set Selected Floor</name>
         <preset/>
         <required_translations>[]</required_translations>
-        <script><![CDATA[/**
-* @param {params} params
-* @param {api} params.api
-* @param {any} params.event
-* @param {any} params.imports
-* @param {ApiHelpers} params.helpers
-
-function handler({api, event, helpers, imports}) {
-    const value = event.payload.value;
-
-    api.setState(
-        'select_floor',
-        Array.isArray(value) ? value[0] : value
-    );
-}
-*/
-/*
-function handler({api, event, helpers, imports}) {
+        <script><![CDATA[function handler({api, event, helpers, imports}) {
 
     const value = event.payload.value;
     const andar = Array.isArray(value) ? value[0] : value;
@@ -31,10 +14,6 @@ function handler({api, event, helpers, imports}) {
     api.setState('select_floor', andar);
 
     let filters = [];
-
-    if (api.state.select_unit) {
-        filters.push('unidade=' + api.state.select_unit);
-    }
 
     if (api.state.select_building) {
         filters.push('predio=' + api.state.select_building);
@@ -45,68 +24,19 @@ function handler({api, event, helpers, imports}) {
     }
 
     filters.push('ativo_para_reserva=true');
-
-    api.setState('room_filter', filters.join('^'));
-}
-
-
-function handler({api, event, helpers, imports}) {
-
-    const value = event.payload.value;
-    const andar = Array.isArray(value) ? value[0] : value;
-
-    console.log('========== TESTE ANDAR ==========');
-    console.log('VALUE:', value);
-    console.log('ANDAR:', andar);
-    console.log('ITEM:', event.payload.item);
-    console.log('FILTER:', 'andar=' + andar);
-    console.log('==================================');
-
-    api.setState('select_floor', andar);
-
-    api.setState(
-        'room_filter',
-        'andar=' + andar
-    );
-}
-
-*/
-
-
-function handler({api, event, helpers, imports}) {
-
-    const value = event.payload.value;
-    const andar = Array.isArray(value) ? value[0] : value;
-
-    api.setState('select_floor', andar);
-
-    let filters = [];
-
-    if (api.state.select_unit) {
-        filters.push('unidade=' + api.state.select_unit);
-    }
-
-    if (api.state.select_building) {
-        filters.push('predio=' + api.state.select_building);
-    }
-
-    if (andar) {
-        filters.push('andar=' + andar);
-    }
-
-    filters.push('ativo_para_reserva=true');
-    
-    if (api.state.participants_count) {
-    filters.push('capacidade>=' + api.state.participants_count);
-}
 
     const roomFilter = filters.join('^');
 
     console.log('========== SET SELECTED FLOOR ==========');
-    console.log('Unidade:', api.state.select_unit);
     console.log('Prédio:', api.state.select_building);
     console.log('Andar selecionado:', andar);
     console.log('ROOM FILTER:', roomFilter);
+
+    const salasIndisponiveis = api.state.unavailable_rooms || [];
+
+if (salasIndisponiveis.length > 0) {
+    roomFilter += '^sys_idNOT IN' + salasIndisponiveis.join(',');
+}
 
     api.setState('room_filter', roomFilter);
 }]]></script>
@@ -115,14 +45,14 @@ function handler({api, event, helpers, imports}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-30 19:43:42</sys_created_on>
         <sys_id>2a18fcdb83a343903d22a8d0deaad363</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Set Selected Floor</sys_name>
         <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
         <sys_update_name>sys_ux_client_script_2a18fcdb83a343903d22a8d0deaad363</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-01 22:55:28</sys_updated_on>
+        <sys_updated_on>2026-10-06 23:57:22</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

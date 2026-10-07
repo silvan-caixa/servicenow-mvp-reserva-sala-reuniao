@@ -5,14 +5,14 @@
         <element label="Hora Final" max_length="40" name="hora_final" type="glide_time"/>
         <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
         <element label="Quantidade de Participante" max_length="40" name="quantidade_de_participante" type="integer"/>
-        <element label="Hora Inicial" max_length="40" name="hora_inicial" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Hora Inicial" max_length="40" name="hora_inicial" read_only="true" read_only_option="instance_configured" type="glide_time"/>
         <element label="Sala" max_length="32" name="sala" reference="x_1026684_gestao_0_sala" type="reference"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cancelada" sequence="3" value="cancelada"/>
-                <element inactive_on_update="false" label="Solicitada" sequence="0" value="solicitada"/>
-                <element inactive_on_update="false" label="Concluida" sequence="2" value="concluida"/>
                 <element inactive_on_update="false" label="Reservada" sequence="1" value="reservada"/>
+                <element inactive_on_update="false" label="Concluida" sequence="2" value="concluida"/>
+                <element inactive_on_update="false" label="Solicitada" sequence="0" value="solicitada"/>
             </choice>
         </element>
     </element>

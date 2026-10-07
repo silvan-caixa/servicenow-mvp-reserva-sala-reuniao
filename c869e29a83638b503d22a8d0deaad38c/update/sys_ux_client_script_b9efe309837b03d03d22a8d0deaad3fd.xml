@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Consulta de Disponibilidade">eff4514b83e7cf503d22a8d0deaad358</macroponent>
+        <name>Identificar Salas Ocupadas</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({api, event, helpers, imports}) {
+
+    console.log('===== VERIFICANDO DISPONIBILIDADE =====');
+
+    const reservas =
+        api.data.look_up_multiple_records_reservas.results || [];
+
+    const dataSelecionada = api.state.selected_date;
+    const horarioSelecionado = api.state.selected_time;
+
+    console.log('Data selecionada:', dataSelecionada);
+    console.log('Horário selecionado:', horarioSelecionado);
+    console.log('Quantidade de reservas:', reservas.length);
+
+    const salasOcupadas = [];
+
+    function horaParaMinutos(hora) {
+
+        if (!hora) {
+            return null;
+        }
+
+        const partes = hora.substring(0, 5).split(':');
+
+        return (
+            Number(partes[0]) * 60 +
+            Number(partes[1])
+        );
+    }
+
+    const horarioConsulta =
+        horaParaMinutos(horarioSelecionado);
+
+    reservas.forEach(function(reserva, index) {
+
+        const sala =
+            reserva.sala &&
+            reserva.sala.value;
+
+        const data =
+            reserva.data &&
+            (reserva.data.displayValue || reserva.data.value);
+
+        const horaInicial =
+            reserva.hora_inicial &&
+            reserva.hora_inicial.displayValue;
+
+        const horaFinal =
+            reserva.hora_final &&
+            reserva.hora_final.displayValue;
+
+        console.log(
+            'Reserva ' + index,
+            '| Sala:', sala,
+            '| Data:', data,
+            '| Início:', horaInicial,
+            '| Fim:', horaFinal
+        );
+
+        const inicio =
+            horaParaMinutos(horaInicial);
+
+        const fim =
+            horaParaMinutos(horaFinal);
+
+        const mesmaData =
+            data === dataSelecionada;
+
+        const horarioOcupado =
+            horarioConsulta !== null &&
+            inicio !== null &&
+            fim !== null &&
+            horarioConsulta >= inicio &&
+            horarioConsulta < fim;
+
+        if (
+            sala &&
+            mesmaData &&
+            horarioOcupado
+        ) {
+
+            salasOcupadas.push(sala);
+
+            console.log(
+                ']]>🔴<![CDATA[ SALA OCUPADA:',
+                reserva.sala.displayValue,
+                '| horário:',
+                horaInicial,
+                'até',
+                horaFinal
+            );
+        }
+    });
+
+        // Guarda as salas ocupadas no Client State
+    api.setState(
+        'unavailable_rooms',
+        salasOcupadas
+    );
+
+    // Atualiza o filtro das salas
+    let roomFilter = api.state.room_filter || '';
+
+    // Remove uma eventual regra NOT IN anterior
+    roomFilter = roomFilter.replace(
+        /\^sys_idNOT IN[^]*/,
+        ''
+    );
+
+    // Exclui as salas ocupadas
+    if (salasOcupadas.length > 0) {
+
+        roomFilter +=
+            '^sys_idNOT IN' +
+            salasOcupadas.join(',');
+
+    }
+
+    console.log(
+        '===== NOVO ROOM FILTER ====='
+    );
+
+    console.log(roomFilter);
+
+    api.setState(
+        'room_filter',
+        roomFilter
+    );
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-06 19:31:12</sys_created_on>
+        <sys_id>b9efe309837b03d03d22a8d0deaad3fd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Identificar Salas Ocupadas</sys_name>
+        <sys_package display_value="Gestao de Espacos" source="x_1026684_gestao_0">c869e29a83638b503d22a8d0deaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestao de Espacos">c869e29a83638b503d22a8d0deaad38c</sys_scope>
+        <sys_update_name>sys_ux_client_script_b9efe309837b03d03d22a8d0deaad3fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-06 23:55:16</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
