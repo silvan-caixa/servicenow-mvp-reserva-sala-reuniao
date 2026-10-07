@@ -39,7 +39,7 @@ Controlar quando uma sala pode ser reservada e iniciar o processo de reserva a p
 09:30
 10:00
 10:30
-...
+```
 
 ## 3. Validações da reserva
 
