@@ -4,16 +4,16 @@
 Permitir que o usuário encontre salas disponíveis.
 
 ## Atividades
-- [ ] Selecionar unidade
-- [ ] Selecionar prédio
-- [ ] Selecionar andar
-- [ ] Selecionar data
-- [ ] Selecionar horário
-- [ ] Informar quantidade de participantes
-- [ ] Consultar salas
-- [ ] Exibir capacidade
-- [ ] Exibir características
-- [ ] Exibir disponibilidade
+- [x] Selecionar unidade
+- [x] Selecionar prédio
+- [x] Selecionar andar
+- [x] Selecionar data
+- [x] Selecionar horário
+- [x] Informar quantidade de participantes
+- [x] Consultar salas
+- [x] Exibir capacidade
+- [-] Exibir características
+- [x] Exibir disponibilidade
 
 ## Fluxo
 ```text
@@ -36,11 +36,11 @@ Salas disponíveis
 ┌──────────────────────────────────────────────┐
 │       CONSULTA DE DISPONIBILIDADE            │
 │                                              │
-│ Unidade     Prédio       Andar               │
-│ [▼]         [▼]          [▼]                 │
+│ Prédio     Andar                             │
+│ [▼]         [▼]                              │
 │                                              │
 │ Data        Horário      Participantes       │
-│ [📅]        [🕐]         [   ]                │
+│ [📅]        [🕐]         [   ]               │
 │                                              │
 │              [ CONSULTAR SALAS ]             │
 │                                              │
@@ -53,4 +53,4 @@ Salas disponíveis
 └──────────────────────────────────────────────┘
 ```
 ## Critério de conclusão
-- [ ] Usuário consegue consultar salas disponíveis
+- [x] Usuário consegue consultar salas disponíveis
